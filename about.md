@@ -6,7 +6,7 @@ sidebar_link: true
 
 > _There is no favorable wind for the sailor who doesn’t know where to go_ - Seneca
 
-Not long after starting my first job after graduating in engineering, I gladly understood I was quite good at saving: after paying for my monthly expenses and not having debts to repay, I could move a sum with two (trailing!) zeros to my savings account.
+Not long after starting my first job after graduating, I gladly understood I was quite good at saving: after paying for my monthly expenses and not having debts to repay, I could move a sum with two (trailing!) zeros to my savings account.
 
 Not having plans to buy an apartment in the foreseeable future, and remembering my grandfather saying "stashing money means losing money", I wondered where I could put my savings other than in my savings account. I therefore started searching the internet; not having found something that looked reliable, I gave a chance to its predecessors, something I had learned to rely on during my studies: books.
 
