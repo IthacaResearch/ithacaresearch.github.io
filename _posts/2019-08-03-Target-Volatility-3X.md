@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Target Volatility 3X - Strategy Prospectus
-tags: TargetVolatility Prospectus Leverage 3X HighRisk
+tags: TargetVolatility Prospectus 3X HighRisk
 excerpt_separator:  <!--more-->
 ---
 
@@ -20,5 +20,5 @@ Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 * Rebalancing frequency: monthly
 * CAGR: 26.31 %
 * Maximum drawdown: 19.8 %
-* Sharpe ratio: 1.31
+* Sharpe ratio: 1.34
 * Leverage: variable, maximum 3
