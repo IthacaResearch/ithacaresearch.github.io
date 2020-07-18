@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Disclaimer
+sidebar_sort_order: 999
 ---
 
 ## FOR INFORMATIONAL PURPOSES ONLY
