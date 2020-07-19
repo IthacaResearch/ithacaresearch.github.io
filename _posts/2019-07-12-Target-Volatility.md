@@ -13,7 +13,7 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 
 Strategy updates are available to all Patrons.
 
-**Strategy details**
+#### Strategy details
 * Backtest period: Jan 1987 - Jun 2020
 * Rebalancing frequency: monthly
 * CAGR: 8.4 %
@@ -21,4 +21,6 @@ Strategy updates are available to all Patrons.
 * Sharpe ratio: 1.01
 * Leverage: 1
 
+
+#### Equity curve
 ![Target Volatility](/images/target_volatility_returns.svg)
