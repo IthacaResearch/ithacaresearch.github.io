@@ -20,3 +20,5 @@ Strategy updates are available to all Patrons.
 * Maximum drawdown: 5.8 %
 * Sharpe ratio: 1.01
 * Leverage: 1
+
+![Target Volatility](/images/target_volatility_returns.svg)
