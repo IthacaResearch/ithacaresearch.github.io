@@ -14,6 +14,7 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 Strategy updates are available to all Patrons.
 
 #### Strategy details
+* Assets: ETFs (Equity indices, Bonds)
 * Backtest period: Jan 1987 - Jun 2020
 * Rebalancing frequency: monthly
 * CAGR: 8.4 %
@@ -23,4 +24,5 @@ Strategy updates are available to all Patrons.
 
 
 #### Equity curve
+Sampling of the equity curve is on a _monthly_ basis. 
 ![Target Volatility](/images/target_volatility_returns.svg)
