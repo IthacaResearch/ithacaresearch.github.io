@@ -15,10 +15,13 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 
 Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 
-**Strategy details**
+#### Strategy details
 * Backtest period: Jan 2010 - Jun 2020
 * Rebalancing frequency: monthly
 * CAGR: 26.31 %
 * Maximum drawdown: 19.8 %
 * Sharpe ratio: 1.34
 * Leverage: variable, maximum 3
+
+#### Equity curve
+![Target Volatility 3X](/images/target_volatility_returns_3x.svg)
