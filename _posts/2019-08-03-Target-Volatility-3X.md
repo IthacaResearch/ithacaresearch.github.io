@@ -16,6 +16,7 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 
 #### Strategy details
+* Assets: ETFs (Equity indices, Bonds), Leveraged ETFs (Equity indices, Bonds)
 * Backtest period: Jan 2010 - Jun 2020
 * Rebalancing frequency: monthly
 * CAGR: 26.31 %
@@ -24,4 +25,5 @@ Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 * Leverage: variable, maximum 3
 
 #### Equity curve
+Sampling of the equity curve is on a _monthly_ basis.
 ![Target Volatility 3X](/images/target_volatility_returns_3x.svg)
