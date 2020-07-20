@@ -20,3 +20,6 @@ Strategy updates are available to "Zeus" Patrons.
 * Maximum drawdown: 17.3 %
 * Sharpe ratio: 1.3
 * Leverage: 1
+
+#### Equity curve
+![Two Regimes](/images/two_regimes.svg)
