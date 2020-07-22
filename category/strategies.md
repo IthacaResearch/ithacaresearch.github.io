@@ -4,6 +4,7 @@ title: Strategies
 ---
 
 Statistics last updated on: 18 July 2020
+
 | Strategy | CAGR | Max Drawdown | Sharpe | Backtest period |
 | :------- | :--: | :----------: | :----: | :-------------: |
 | [Target Volatility](https://ithacaresearch.github.io/2019/07/12/Target-Volatility.html) | 8.4 % | 5.8 % | 1.01 | Jan 1987 - Today |
