@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Strategies
+sidebar_sort_order: 2
 ---
 
 Statistics last updated on: 18 July 2020
