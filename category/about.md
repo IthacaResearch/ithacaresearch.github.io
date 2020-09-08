@@ -19,4 +19,4 @@ Although I had had to deal with statistics as an engineer, I was only now beginn
 
 I have found these years' journey so interesting that I'd like it to be my main one. Although I'm good at saving, I'm far from being able to dedicate myself exclusively to the research of investment strategies. I still wanted to move in this direction though, and I realized it was possible when I've found a kindred spirit to share the efforts with.
 
-We have also ultimately decided to publish _Ithaca_, the pool of investment strategies we developed to invest our savings, and start a campaign on Patreon: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
+We ultimately decided to publish _Ithaca_, the pool of investment strategies we developed to invest our savings, and start a campaign on Patreon: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
