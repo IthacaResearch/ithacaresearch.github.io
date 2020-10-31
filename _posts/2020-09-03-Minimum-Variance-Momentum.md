@@ -26,3 +26,4 @@ Strategy updates are available to "Zeus" Patrons via automated email updates.
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
+![Minimum Variance Momentum](/images/minimum_variance_momentum.svg)
