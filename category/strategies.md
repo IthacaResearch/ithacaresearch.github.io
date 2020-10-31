@@ -4,7 +4,7 @@ title: Strategies
 sidebar_sort_order: 2
 ---
 
-Statistics last updated on: 18 July 2020
+Statistics last updated on: 31 Oct 2020
 
 | Strategy | CAGR | Max Drawdown | Sharpe | Leverage | Backtest period |
 | :------- | :--: | :----------: | :----: | :------: | :-------------: |
