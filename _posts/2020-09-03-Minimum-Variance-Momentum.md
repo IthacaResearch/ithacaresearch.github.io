@@ -11,7 +11,7 @@ This strategy combines the momentum factor with minimum variance weighting.
 
 The main advantage of this strategy is its ability to capture the high returns of trending equity markets while keeping the portfolio sufficiently diversified to prevent sharp drops in case of dowturns.
 
-The main risk of this strategy is the dependence on the persistance of the momentum factor in global markets. Although there is no evidence of the fading of the momentum factor, it is reasonable to assume that it might undergo periods of underperformance compared to other factors in the future
+The main risk of this strategy is its dependence on the persistance of the momentum factor in global markets. Although there is no evidence of the fading of the momentum factor, it is reasonable to assume that it might undergo periods of underperformance compared to other factors in the future.
 
 Strategy updates are available to "Zeus" Patrons via automated email updates.
 
