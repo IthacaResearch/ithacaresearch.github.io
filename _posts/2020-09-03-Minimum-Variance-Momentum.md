@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimum variance momentum - Strategy Prospectus
+title: Minimum Variance Momentum - Strategy Prospectus
 tags: MinimumVarianceMomentum Prospectus
 excerpt_separator:  <!--more-->
 ---
