@@ -27,4 +27,4 @@ Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
-![Target Volatility 3X](/images/target_volatility_returns_3x.svg)
+![Target Volatility 3X](/images/target_volatility_3x.svg)
