@@ -15,13 +15,13 @@ Strategy updates are available to all Patrons.
 
 #### Strategy details
 * Assets: ETFs (Equity indices, Bonds)
-* Backtest period: Jan 1987 - Jun 2020
-* Rebalancing frequency: monthly
+* Backtest period: Jan 1987 - Nov 2020
+* Rebalancing frequency: variable (average 8/year)
 * CAGR: 8.4 %
 * Maximum drawdown: 5.8 %
 * Sharpe ratio: 1.01
 * Leverage: 1
-
+* Detailed tearsheet: [Target Volatility](/tearsheets/target_volatility.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
