@@ -17,12 +17,13 @@ Strategy updates are available to "Odysseus" and "Zeus" Patrons.
 
 #### Strategy details
 * Assets: ETFs (Equity indices, Bonds), Leveraged ETFs (Equity indices, Bonds)
-* Backtest period: Jan 2010 - Jun 2020
-* Rebalancing frequency: monthly
-* CAGR: 26.31 %
-* Maximum drawdown: 19.8 %
-* Sharpe ratio: 1.34
+* Backtest period: Jan 2010 - Nov 2020
+* Rebalancing frequency: variable
+* CAGR: 24.26 %
+* Maximum drawdown: -23 %
+* Sharpe ratio: 1.24
 * Leverage: variable, maximum 3
+* Detailed tearsheet: [Target Volatility 3X](/tearsheets/target_volatility_3x.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
