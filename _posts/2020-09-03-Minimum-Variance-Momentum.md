@@ -18,11 +18,12 @@ Strategy updates are available to "Zeus" Patrons via automatic email updates.
 #### Strategy details
 * Assets: ETFs (Equity indices, Bonds, REIT)
 * Backtest period: Jan 2006 - Today
-* Rebalancing frequency: variable (historical average: ~4/month)
+* Rebalancing frequency: variable (average: ~4/month)
 * CAGR: 16.82 %
 * Maximum drawdown: 19.1 %
 * Sharpe ratio: 0.931
 * Leverage: 1
+* Detailed tearsheet: [Minimum Variance Momentum](/tearsheets/minimum_variance_momentum.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
