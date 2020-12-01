@@ -25,4 +25,4 @@ Strategy updates are available to all Patrons.
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Target Volatility](/images/target_volatility_returns.svg)
+![Target Volatility](/images/target_volatility.svg)
