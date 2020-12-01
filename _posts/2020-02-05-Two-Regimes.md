@@ -21,9 +21,9 @@ Strategy updates are available to "Zeus" Patrons.
 * Assets: ETFs (Equity indices, Bonds)
 * Backtest period: Jul 1999 - Jun 2020
 * Rebalancing frequency: variable, average: 3/year
-* CAGR: 21.7 %
-* Maximum drawdown: 17.3 %
-* Sharpe ratio: 1.3
+* CAGR: 19.66 %
+* Maximum drawdown: 23.13 %
+* Sharpe ratio: 1.22
 * Leverage: 1
 * Detailed tearsheet: [Two Regimes](/tearsheets/two_regimes.html)
 
