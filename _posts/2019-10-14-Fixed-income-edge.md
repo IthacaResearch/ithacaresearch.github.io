@@ -5,7 +5,7 @@ tags: FixedIncomeEdge Prospectus
 excerpt_separator:  <!--more-->
 ---
 
-> _Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1._ - Warren Buffett
+> _Revolutions, you follow?_ - Mark Hanna
 
 This strategy exploits some seasonality effects found in government bonds.
 
