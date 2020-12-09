@@ -5,7 +5,7 @@ tags: FixedIncomeEdge Prospectus
 excerpt_separator:  <!--more-->
 ---
 
-> _Revolutions, you follow?_ - Mark Hanna
+> _Revolutions, you follow?_ - The Wolf of Wall Street
 
 This strategy exploits some seasonality effects found in government bonds.
 
