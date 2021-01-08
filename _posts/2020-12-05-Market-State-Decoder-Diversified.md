@@ -15,7 +15,7 @@ The main source of risk for this strategy is a period in which the major equity 
 
 #### Strategy details
 * Assets: Equity, REIT, Commodities, Corporate Bonds, Government Bonds (ETFs)
-* Backtest period: Jan 2003 - Dec 2020
+* Backtest period: Jan 2003 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 11.94 %
 * Maximum drawdown: 11.04 %
