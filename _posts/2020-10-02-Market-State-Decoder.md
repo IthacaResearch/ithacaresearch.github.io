@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Market State Decoder - Strategy Prospectus
+title: Market State Decoder (Aggressive) - Strategy Prospectus
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
 ---
@@ -17,12 +17,12 @@ The main source of risk for this strategy is a period in which the major equity 
 * Assets: Equity and Government Bonds ETFs
 * Backtest period: Jan 2003 - Dec 2020
 * Rebalancing frequency: variable, average 4/year
-* CAGR: 15.47 %
-* Maximum drawdown: 16.48 %
-* Sharpe ratio: 1.16
+* CAGR: 16.61 %
+* Maximum drawdown: 14.52 %
+* Sharpe ratio: 1.26
 * Leverage: 1
-* Detailed tearsheet: [Market State Decoder](/tearsheets/market_state_decoder.html)
+* Detailed tearsheet: [Market State Decoder](/tearsheets/market_state_decoder_aggressive.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Market State Decoder](/images/market_state_decoder.svg)
+![Market State Decoder](/images/market_state_decoder_aggressive.svg)
