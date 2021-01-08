@@ -21,7 +21,7 @@ The main source of risk for this strategy is a period in which the major equity 
 * Maximum drawdown: 14.52 %
 * Sharpe ratio: 1.26
 * Leverage: 1
-* Detailed tearsheet: [Market State Decoder](/tearsheets/market_state_decoder_aggressive.html)
+* Detailed tearsheet: [Market State Decoder Aggressive](/tearsheets/market_state_decoder_aggressive.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
