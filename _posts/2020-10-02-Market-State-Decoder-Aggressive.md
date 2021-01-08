@@ -15,7 +15,7 @@ The main source of risk for this strategy is a period in which the major equity 
 
 #### Strategy details
 * Assets: Equity and Government Bonds ETFs
-* Backtest period: Jan 2003 - Dec 2020
+* Backtest period: Jan 2003 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 16.61 %
 * Maximum drawdown: 14.52 %
