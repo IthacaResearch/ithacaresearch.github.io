@@ -7,11 +7,14 @@ excerpt_separator:  <!--more-->
 
 > _There is nothing permanent except change_ - Heraclitus
 
-This strategy estimates the state in which each security is in, and invests in the securities with the best upside outlook.
+This strategy evaluates the "state" in which each portfolio asset is in, and invests in the assets with the best upside outlook.
+The "state" of an asset is a quantity determined from several parameters specific to each security, as: volatility, volumes, short and long term trends, correlations with other assets. Once the states have been determined, the portfolio is allocated to the securities with the highest state rank.
 
 The main advantage of this strategy is its ability to provide a significant improvement over the equity markets performance with a relatively low rebalancing frequency.
 
-The main source of risk for this strategy is a period in which the major equity indices continuosly switch state.
+The main reason of underperformance for this strategy is a period in which the major equity indices continuosly switch state (i.e. when equity markets move sideways).
+
+There are two versions of this strategy; the one described on this page is named "aggressive" as the allocations to each asset class can reach 100% of the overall value of the portfolio.
 
 #### Strategy details
 * Assets: Equity and Government Bonds ETFs
