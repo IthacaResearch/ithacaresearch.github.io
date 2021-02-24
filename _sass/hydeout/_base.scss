@@ -16,6 +16,7 @@ html {
   font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
+  text-align: $root-text-align;
 
   @media (min-width: $large-breakpoint) {
     font-size: $large-font-size;
