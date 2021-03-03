@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Market State Decoder (Diversified) - Strategy Prospectus
+title: Market State Decoder (Diversified)
+subtitle: Strategy Prospectus
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
 ---
