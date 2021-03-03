@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixed Income's Edge - Strategy Prospectus
+title: Fixed Income's Edge
 tags: FixedIncomeEdge Prospectus
 excerpt_separator:  <!--more-->
 ---
