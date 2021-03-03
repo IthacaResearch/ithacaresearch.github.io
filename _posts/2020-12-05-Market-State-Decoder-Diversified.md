@@ -18,12 +18,12 @@ The main reason of underperformance for this strategy is a period in which the m
 There are two versions of this strategy; the one described on this page is named "defensive" as the allocations to each asset class can never reach 100% of the overall value of the portfolio.
 
 #### Strategy details
-* Assets: Equity, REIT, Commodities, Corporate Bonds, Government Bonds (ETFs)
-* Backtest period: Jan 2003 - Jan 2021
+* Assets: Equity, REIT, Corporate Bonds, Government Bonds (ETFs)
+* Backtest period: Jan 1998 - Mar 2021
 * Rebalancing frequency: variable, average 4/year
-* CAGR: 11.94 %
-* Maximum drawdown: 11.04 %
-* Sharpe ratio: 1.38
+* CAGR: 10.32 %
+* Max Drawdown: -12.73 %
+* Sharpe ratio: 1.05
 * Leverage: 1
 * Detailed tearsheet: [Market State Decoder Diversified](/tearsheets/market_state_decoder_diversified.html)
 
