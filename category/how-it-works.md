@@ -18,13 +18,13 @@ Body:
 Message:
    Orders sent: true
    Rebalance required for strategies: StrategyName
-   Delta weights:   # <--- this is the difference between the current portfolio allocation and the target allocation
+   Delta weights:   # <--- this is the difference between the current strategy allocation and the target allocation
        TLT: 0.3
        SPY: -0.3
-   Current weights: # <--- this is the current portfolio allocation
+   Current weights: # <--- this is the current strategy allocation
        TLT: 0.2
        SPY: 0.8
-   Target weights:  # <--- this is the target portfolio allocation
+   Target weights:  # <--- this is the strategy allocation target
        TLT: 0.5
        SPY: 0.5
    Prices:
