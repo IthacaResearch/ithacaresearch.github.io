@@ -8,6 +8,7 @@ sidebar_sort_order: 800
 The details of all our strategies are public. Please subscribe to one of the plans available on Patreon to receive live updates via e-mail with the latest allocations: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
 
 ### Sample email
+The emails you will receive once subscribed will be in the same format of the one below.
 Subject:
 
 ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
@@ -17,13 +18,13 @@ Body:
 Message:
    Orders sent: true
    Rebalance required for strategies: StrategyName
-   Delta weights:
+   Delta weights:   # <--- this is the difference between the current portfolio allocation and the target allocation
        TLT: 0.3
        SPY: -0.3
-   Current weights:
+   Current weights: # <--- this is the current portfolio allocation
        TLT: 0.2
        SPY: 0.8
-   Target weights:
+   Target weights:  # <--- this is the target portfolio allocation
        TLT: 0.5
        SPY: 0.5
    Prices:
