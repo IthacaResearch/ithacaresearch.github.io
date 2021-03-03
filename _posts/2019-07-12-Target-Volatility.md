@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Target Volatility - Strategy Prospectus
+title: Target Volatility
 tags: TargetVolatility Prospectus
 excerpt_separator:  <!--more-->
 ---
