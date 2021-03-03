@@ -4,7 +4,7 @@ title: How it works
 sidebar_sort_order: 800
 ---
 
-## 
+## Subscription
 The details of all our strategies are public. Please subscribe to one of the plans available on Patreon to receive live updates via e-mail with the latest allocations: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
 
 ### Sample email
