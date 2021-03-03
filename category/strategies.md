@@ -14,6 +14,6 @@ Statistics last updated on: 03 Mar 2021
 | [Minimum Variance Momentum](https://ithacaresearch.github.io/2020/09/03/Minimum-Variance-Momentum.html) | 15.9 % | 19.94 % | 0.84 | 1 | Jan 2006 - Today |
 | [Target Volatility](https://ithacaresearch.github.io/2019/07/12/Target-Volatility.html) | 7.07 % | 5.06 % | 1.46 | 1 | Jan 2003 - Today |
 | [Target Volatility 3X](https://ithacaresearch.github.io/2019/08/03/Target-Volatility-3X.html) | 23.75 % | 24.26 % | 1.24 | variable, max 3 | Jan 2010 - Today |
-| [Two Regimes](https://ithacaresearch.github.io/2020/02/05/Two-Regimes.html) | 16.9 % | 15.6 % | 1.16 | 1 | Jan 1998 - Today |
+| [Two Regimes](https://ithacaresearch.github.io/2020/02/05/Two-Regimes.html) | 16.9 % | 15.3 % | 1.16 | 1 | Jan 1998 - Today |
 
 The latest allocations for each strategy are sent daily via email.
