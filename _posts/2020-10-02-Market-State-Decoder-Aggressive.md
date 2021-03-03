@@ -20,9 +20,9 @@ There are two versions of this strategy; the one described on this page is named
 * Assets: Equity and Government Bonds ETFs
 * Backtest period: Jan 2003 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
-* CAGR: 16.61 %
-* Maximum drawdown: 14.52 %
-* Sharpe ratio: 1.26
+* CAGR: 14.17 %
+* Max Drawdown: -19.8 %
+* Sharpe ratio: 0.98
 * Leverage: 1
 * Detailed tearsheet: [Market State Decoder Aggressive](/tearsheets/market_state_decoder_aggressive.html)
 
