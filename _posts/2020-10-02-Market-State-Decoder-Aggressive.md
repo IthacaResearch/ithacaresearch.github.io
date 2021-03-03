@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Market State Decoder (Aggressive) - Strategy Prospectus
+title: Market State Decoder (Aggressive)
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
 ---
