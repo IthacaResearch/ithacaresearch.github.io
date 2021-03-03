@@ -13,7 +13,7 @@ The emails you will receive once subscribed will be in the same format of the on
 Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
 
 Body:
-```
+```yaml
 Message:
    Orders sent: true
    Rebalance required for strategies: StrategyName
