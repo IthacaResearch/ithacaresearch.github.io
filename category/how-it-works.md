@@ -10,9 +10,8 @@ The details of all our strategies are public. Please subscribe to one of the pla
 ### Sample email
 The emails you will receive once subscribed will be in the same format of the one below.
 
-Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
-
-Body:
+- Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
+- Body:
 ```yaml
 Message:
    Orders sent: true
