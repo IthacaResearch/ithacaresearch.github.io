@@ -18,7 +18,7 @@ There are two versions of this strategy; the one described on this page is named
 
 #### Strategy details
 * Assets: Equity and Government Bonds ETFs
-* Backtest period: Jan 2003 - Jan 2021
+* Backtest period: Jan 1998 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 14.17 %
 * Max Drawdown: -19.8 %
