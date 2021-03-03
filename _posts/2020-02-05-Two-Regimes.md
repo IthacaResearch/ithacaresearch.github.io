@@ -30,3 +30,4 @@ Strategy updates are available to "Zeus" Patrons.
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
 ![Two Regimes](/images/two_regimes.svg)
+
