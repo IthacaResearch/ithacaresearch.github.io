@@ -17,9 +17,9 @@ Message:
    Orders sent: true
    Rebalance required for strategies: StrategyName
    Delta weights:   # <--- this is the difference between the current strategy allocation and the target allocation
-       TLT: 0.3
-       SPY: -0.3
-   Current weights: # <--- this is the current strategy allocation
+       TLT: 0.3     # <--- allocate 30% more to TLT, i.e. buy (30% * portfolio value) worth of TLT
+       SPY: -0.3    # <--- allocate 30% less to SPY, i.e. sell (30% * portfolio value) worth of SPY
+   Current weights: # <--- this is the current strategy allocation (valid only if you are already using the strategy)
        TLT: 0.2
        SPY: 0.8
    Target weights:  # <--- this is the strategy allocation target
@@ -31,6 +31,14 @@ Message:
 ```
 
 ## Execution
-To execute the strategies you need to have a brokerage account (some banks provide also brokerage services). The available brokers vary from country to country, as well as the functionalities they provide, the fees they charge, and the products you can trade through them.
+To execute the strategies you need to have a brokerage account (some banks provide also brokerage services). The available brokers vary from country to country, as well as the functionalities they provide, the fees they charge, and the products you can trade through them. Here is a list of the most popular brokers:
 
-We use [Interactive Brokers](https://www.interactivebrokers.com).
+- [Interactive Brokers](https://www.interactivebrokers.com)
+- Fidelity
+- Charles Schwab
+- Betterment
+- TD Ameritrade
+- Wealthfront
+- Degiro
+- Saxo Bank
+- Swissquote
