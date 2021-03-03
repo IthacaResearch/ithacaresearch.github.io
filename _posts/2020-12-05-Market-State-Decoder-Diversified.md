@@ -18,7 +18,7 @@ The main reason of underperformance for this strategy is a period in which the m
 There are two versions of this strategy; the one described on this page is named "defensive" as the allocations to each asset class can never reach 100% of the overall value of the portfolio.
 
 #### Strategy details
-* Assets: Equity, REIT, Corporate Bonds, Government Bonds (ETFs)
+* Assets: Equity, REIT, Corporate Bonds, Government Bonds
 * Backtest period: Jan 1998 - Mar 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 10.32 %
