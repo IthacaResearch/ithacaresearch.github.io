@@ -18,7 +18,7 @@ The main risk of this strategy is the allocation percentage: when the confidence
 Strategy updates are available to "Zeus" Patrons.
 
 #### Strategy details
-* Assets: ETFs (Equity indices, Bonds)
+* Assets: ETFs (Equity indices, Government bonds)
 * Backtest period: Jan 1998 - Mar 2021
 * Rebalancing frequency: variable, average: 3/year
 * CAGR: 16.96%
