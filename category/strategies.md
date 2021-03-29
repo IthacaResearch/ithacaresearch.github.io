@@ -33,3 +33,9 @@ The benchmark is the S&P 500 index
 
 **Can the strategies be combined together?**<br>
 Absolutely, that is actually how we are currently using them. Please contact us if you'd like to review the results of a specific combination of strategies and/or to receive updates for a specific combination
+
+**Can you provide the trade logs of the backtests?**<br>
+Yes, they are available upon request
+
+**Can you provide further details about the strategies' inner workings?**<br>
+We cannot provide the source code of the strategies. However, we can provide the references (our own research notebooks, papers, books, websites) that have inspired the creation of a specific strategy upon request
