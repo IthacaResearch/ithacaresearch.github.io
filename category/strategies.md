@@ -20,5 +20,5 @@ The latest allocations for each strategy are sent daily via email.
 
 # Notes
 - Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
-- All backtests include the simulation of commissions and slippage, while bid-ask spreads are not taken into account
-- A strategy might be compared for convenience to a benchmark. In such a case, the S&P 500 index has been chosen as benchmark
+- All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
+- A strategy might be compared to a benchmark for convenience. In such a case, the benchmark is the S&P 500 index
