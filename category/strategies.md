@@ -22,9 +22,9 @@ The latest allocations for each strategy are sent daily via email.
 
 ## FAQs
 
-- How are returns calculated?
-
+**How are returns calculated?**
 Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
+
 - How realistic are the backtest results?
 All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
 - What is the benchmark displayed in some of the strategies results?
