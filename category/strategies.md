@@ -20,8 +20,13 @@ Statistics last updated on: 03 Mar 2021
 
 The latest allocations for each strategy are sent daily via email.
 
-## Notes
+## FAQs
 
-- Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
-- All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
-- A strategy might be compared to a benchmark for convenience. In such a case, the benchmark is the S&P 500 index
+- How are returns calculated?
+Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
+- How realistic are the backtest results?
+All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
+- What is the benchmark displayed in some of the strategies results?
+The benchmark is the S&P 500 index
+- Can the strategies be combined together?
+Absolutely, that is actually how we are currently using them. Please contact us if you'd like to review the results of a specific combination of strategies and/or to receive updates for a specific combination
