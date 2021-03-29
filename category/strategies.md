@@ -4,7 +4,7 @@ title: Strategies
 sidebar_sort_order: 2
 ---
 
-# Overview
+## Overview
 
 | Strategy | CAGR | Max Drawdown | Sharpe | Leverage | Backtest period |
 | :------- | :--: | :----------: | :----: | :------: | :-------------: |
@@ -20,7 +20,8 @@ Statistics last updated on: 03 Mar 2021
 
 The latest allocations for each strategy are sent daily via email.
 
-# Notes
+## Notes
+
 - Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
 - All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
 - A strategy might be compared to a benchmark for convenience. In such a case, the benchmark is the S&P 500 index
