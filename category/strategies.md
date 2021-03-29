@@ -5,6 +5,7 @@ sidebar_sort_order: 2
 ---
 
 # Overview
+
 | Strategy | CAGR | Max Drawdown | Sharpe | Leverage | Backtest period |
 | :------- | :--: | :----------: | :----: | :------: | :-------------: |
 | [Fixed Income's Edge](https://ithacaresearch.github.io/2019/10/14/Fixed-income-edge.html) | 10.49 % | 8 % | 1.44 | 1 | Jan 2003 - Today |
