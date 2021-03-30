@@ -23,19 +23,22 @@ The latest allocations for each strategy are sent daily via email.
 ## FAQs
 
 **How are returns calculated?**<br>
-Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy
+Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy.
 
 **How realistic are the backtest results?**<br>
-All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled
+All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled.
 
 **What is the benchmark displayed in some of the strategies results?**<br>
-The benchmark is the S&P 500 index
+The benchmark is the S&P 500 index.
 
 **Can the strategies be combined together?**<br>
-Absolutely, that is actually how we are currently using them. Please contact us if you'd like to review the results of a specific combination of strategies and/or to receive updates for a specific combination
+Absolutely, that is actually how we are currently using them. Please contact us at info@ithacainvestments.org if you'd like to review the results of a specific combination of strategies and/or to receive updates for a specific combination.
 
 **Can you provide the trade logs of the backtests?**<br>
-Yes, they are available upon request
+Yes, they are available upon request.
 
 **Can you provide further details about the strategies' inner workings?**<br>
-We cannot provide the source code of the strategies. However, we can provide the references (our own research notebooks, papers, books, websites) that have inspired the creation of a specific strategy upon request
+We cannot provide the source code of the strategies. However, we can provide the references (our own research notebooks, papers, books, websites) that have inspired the creation of a specific strategy upon request.
+
+**Can you help us implementing and testing a new strategy/idea?**<br>
+Yes, please contact us at info@ithacainvestments.org
