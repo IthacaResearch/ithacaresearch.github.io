@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Market State Decoder (Diversified)
+title: Market State Decoder (Defensive)
 subtitle: Strategy Prospectus
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
@@ -25,8 +25,8 @@ There are two versions of this strategy; the one described on this page is named
 * Max Drawdown: -12.73 %
 * Sharpe ratio: 1.05
 * Leverage: 1
-* Detailed tearsheet: [Market State Decoder Diversified](/tearsheets/market_state_decoder_diversified.html)
+* Detailed tearsheet: [Market State Decoder Defensive](/tearsheets/market_state_decoder_diversified.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Market State Decoder Diversified](/images/market_state_decoder_diversified.svg)
+![Market State Decoder Defensive](/images/market_state_decoder_diversified.svg)
