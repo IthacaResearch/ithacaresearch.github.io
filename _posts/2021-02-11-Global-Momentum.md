@@ -6,25 +6,24 @@ tags: GlobalMomentum Prospectus
 excerpt_separator:  <!--more-->
 ---
 
-This strategy evaluates the "state" in which each portfolio asset is in, and invests in the assets with the best upside outlook.
-The "state" of an asset is a quantity determined from several parameters specific to each security, as: volatility, volumes, short and long term trends, correlations with other assets. Once the states have been determined, the portfolio is allocated to the securities with the highest state-wise rank.
+This strategy evaluates a momentum based score for each asset, then ranks the assets according to their scores, and invests in equal parts in the highest ranking assets for each category.
+Assets are grouped in three categories: risky assets (for example equities), safe assets (for example government bonds), and risk-free assets (for example ultra short term government bonds).
+If there is no asset with a positive score in a given category, the corresponding part of the portfolio will be allocated to highest ranking risk-free assets.
 
-The main advantage of this strategy is its ability to provide a significant improvement over the equity markets performance with a relatively low rebalancing frequency.
+The main advantage of this strategy is its ability avoid major equity markets downtrends through diversification and momentum filtering.
 
-The main reason of underperformance for this strategy is a period in which the major equity indices continuosly switch state (i.e. when equity markets move sideways).
-
-There are two versions of this strategy; the one described on this page is named "defensive" as the allocations to each asset class can never reach 100% of the overall value of the portfolio.
+The main source of underperformance for this strategy is the lack of a clear trend across different asset classes.
 
 #### Strategy details
 * Assets: Equity, REIT, Corporate Bonds, Government Bonds
 * Backtest period: Jan 1998 - Apr 2021
-* Rebalancing frequency: variable, average 4/year
-* CAGR: 10.32 %
-* Max Drawdown: -12.73 %
-* Sharpe ratio: 1.05
+* Rebalancing frequency: monthly
+* CAGR: 14.02 %
+* Max Drawdown: -21.15 %
+* Sharpe ratio: 1.1
 * Leverage: 1
-* Detailed tearsheet: [Market State Decoder Defensive](/tearsheets/market_state_decoder_diversified.html)
+* Detailed tearsheet: [Global Momentum](/tearsheets/global_momentum.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Market State Decoder Defensive](/images/market_state_decoder_diversified.svg)
+![Global Momentum](/images/global_momentum.svg)
