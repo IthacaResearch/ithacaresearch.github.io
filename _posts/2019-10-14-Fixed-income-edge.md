@@ -14,7 +14,7 @@ The main advantage of this strategy is low risk, and returns which are higher th
 The main source of risk for this strategy is an end of the seasonalities exhibited by government bonds.
 
 #### Strategy details
-* Assets: Government Bonds
+* Asset classes: government bonds
 * Backtest period: Jan 2003 - Nov 2020
 * Rebalancing frequency: variable, average 20/year
 * CAGR: 10.49 %
