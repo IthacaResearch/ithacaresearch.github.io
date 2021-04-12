@@ -17,7 +17,7 @@ The main reason of underperformance for this strategy is a period in which the m
 There are two versions of this strategy; the one described on this page is named "aggressive" as the allocations to each asset class can reach 100% of the overall value of the portfolio.
 
 #### Strategy details
-* Assets: Equity and Government Bonds
+* Asset classes: equities, government bonds
 * Backtest period: Jan 1998 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 14.17 %
