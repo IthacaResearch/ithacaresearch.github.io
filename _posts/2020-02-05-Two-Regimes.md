@@ -15,8 +15,6 @@ The main risk of this strategy is the allocation percentage: when the confidence
 * Continuous checks on equity markets stability. If any of these checks fails, the strategy switches to safe assets.
 * A conservative approach: the default allocation is to safe assets.
 
-Strategy updates are available to "Zeus" Patrons.
-
 #### Strategy details
 * Assets: Equity indices, Government bonds
 * Backtest period: Jan 1998 - Mar 2021
