@@ -11,8 +11,6 @@ The rationale of this strategy is rather simple: allocate most of the capital to
 
 The main advantage of this strategy is low risk: although it sacrifices some returns, the maximum drawdown since 1987 is less than 6%.
 
-Strategy updates are available to all Patrons.
-
 #### Strategy details
 * Assets: ETFs (Equity indices, Bonds)
 * Backtest period: Jan 2003 - Nov 2020
