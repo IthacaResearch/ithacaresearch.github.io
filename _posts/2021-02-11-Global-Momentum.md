@@ -15,7 +15,7 @@ The main advantage of this strategy is its ability avoid major equity markets do
 The main source of underperformance for this strategy is the lack of a clear trend across different asset classes.
 
 #### Strategy details
-* Assets: Equity, REIT, Corporate Bonds, Government Bonds
+* Asset classes: equities, REITs, corporate bonds, government bonds
 * Backtest period: Jan 1998 - Apr 2021
 * Rebalancing frequency: monthly
 * CAGR: 14.02 %
