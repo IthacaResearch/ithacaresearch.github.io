@@ -14,7 +14,7 @@ The advantage of this variant of _Target Volatility_ is higher returns: the usag
 The main risks of this strategy are high leverage and unforeseen changes in correlations between risk assets and safe assets.
 
 #### Strategy details
-* Asset classes: Equities, Government Bonds
+* Asset classes: equities, government bonds
 * Backtest period: Jan 2010 - Nov 2020
 * Rebalancing frequency: variable
 * CAGR: 24.26 %
