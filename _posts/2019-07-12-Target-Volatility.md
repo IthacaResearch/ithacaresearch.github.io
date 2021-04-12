@@ -12,7 +12,7 @@ The rationale of this strategy is rather simple: allocate most of the capital to
 The main advantage of this strategy is low risk: although it sacrifices some returns, the maximum drawdown since 1987 is less than 6%.
 
 #### Strategy details
-* Assets: ETFs (Equity indices, Bonds)
+* Asset classes: Equities, Government Bonds
 * Backtest period: Jan 2003 - Nov 2020
 * Rebalancing frequency: variable, average 8/year
 * CAGR: 7.07 %
