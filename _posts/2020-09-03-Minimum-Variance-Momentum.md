@@ -14,7 +14,7 @@ The main advantage of this strategy is its ability to capture the high returns o
 The main risk of this strategy is its dependence on the persistence of the momentum factor in global markets. Although there is no evidence of the fading of the momentum factor, it is reasonable to assume that it might undergo periods of under-performance compared to other factors in the future.
 
 #### Strategy details
-* Assets: ETFs (Equity indices, Bonds, REIT)
+* Asset classes: Equities, government bonds, REITs
 * Backtest period: Jan 2006 - Today
 * Rebalancing frequency: variable, average: ~4/month
 * CAGR: 15.9 %
