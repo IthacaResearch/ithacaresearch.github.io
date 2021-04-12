@@ -6,9 +6,9 @@ tags: GlobalMomentum Prospectus
 excerpt_separator:  <!--more-->
 ---
 
-This strategy evaluates a momentum based score for each asset, then ranks the assets according to their scores, and invests in equal parts in the highest ranking assets for each category.
+This strategy evaluates a momentum based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
 
-Assets are grouped in three categories: risky assets (for example equities), safe assets (for example government bonds), and risk-free assets (for example ultra short term government bonds). If there is no asset with a positive score in a given category, the corresponding part of the portfolio will be allocated to highest ranking risk-free assets.
+Assets are grouped in three categories: risky assets (for example equities), safe assets (for example government bonds), and risk-free assets (for example ultra short term government bonds). If there is no asset with a positive score in a given category, the corresponding part of the portfolio will be allocated to the highest ranking risk-free assets.
 
 The main advantage of this strategy is its ability avoid major equity markets downtrends through diversification and momentum filtering.
 
