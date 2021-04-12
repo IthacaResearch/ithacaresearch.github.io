@@ -16,7 +16,7 @@ The main risk of this strategy is the allocation percentage: when the confidence
 * A conservative approach: the default allocation is to safe assets.
 
 #### Strategy details
-* Assets: Equity indices, Government bonds
+* Asset classes: equities, government bonds
 * Backtest period: Jan 1998 - Mar 2021
 * Rebalancing frequency: variable, average: 3/year
 * CAGR: 16.96%
