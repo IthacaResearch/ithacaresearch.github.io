@@ -18,6 +18,7 @@ There are two versions of this strategy; the one described on this page is named
 
 #### Strategy details
 * Asset classes: equities, government bonds
+* Number of assets: 6
 * Backtest period: Jan 1998 - Jan 2021
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 14.17 %
