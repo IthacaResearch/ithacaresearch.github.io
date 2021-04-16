@@ -8,7 +8,7 @@ sidebar_sort_order: 800
 The details of all our strategies are public. Please subscribe to one of the plans available on Patreon to receive live updates via e-mail with the latest allocations: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
 
 ### Sample email
-The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range `[- max leverage, max leverage]`, where the maximum leverage depends on the strategy.
+The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range `[-max leverage, max leverage]`, where the maximum leverage depends on the strategy.
 
 - Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
 - Body:
