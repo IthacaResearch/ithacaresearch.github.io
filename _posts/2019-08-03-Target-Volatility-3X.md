@@ -15,6 +15,7 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 
 #### Strategy details
 * Asset classes: equities, government bonds
+* Number of assets: 3
 * Backtest period: Jan 2010 - Nov 2020
 * Rebalancing frequency: variable
 * CAGR: 24.26 %
