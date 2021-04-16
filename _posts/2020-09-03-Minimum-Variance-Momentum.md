@@ -15,6 +15,7 @@ The main risk of this strategy is its dependence on the persistence of the momen
 
 #### Strategy details
 * Asset classes: Equities, government bonds, REITs
+* Number of assets: 6
 * Backtest period: Jan 2006 - Today
 * Rebalancing frequency: variable, average: ~4/month
 * CAGR: 15.9 %
