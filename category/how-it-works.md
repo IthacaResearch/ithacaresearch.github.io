@@ -8,7 +8,7 @@ sidebar_sort_order: 800
 The details of all our strategies are public. Please subscribe to one of the plans available on Patreon to receive live updates via e-mail with the latest allocations: [patreon.com/ithaca](https://www.patreon.com/ithaca "Go to Patreon page")
 
 ### Sample email
-The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already the only relevant information is provided by "Target weights", as your current allocation (weights) is zero for all assets.
+The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range [- max leverage, max leverage] , where the maximum leverage depends on the strategy.
 
 - Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
 - Body:
@@ -22,7 +22,7 @@ Message:
    Current weights: # <--- this is the current strategy allocation (valid only if you are already using the strategy)
        TLT: 0.2
        SPY: 0.8
-   Target weights:  # <--- this is the strategy allocation target
+   Target weights:  # <--- this is the strategy allocation target. The percentage of the assets in your portfolio should match these
        TLT: 0.5
        SPY: 0.5
    Prices:
@@ -49,6 +49,9 @@ Yes, they are available upon request.
 
 **Can you provide further details about the strategies' inner workings?**<br>
 We cannot provide the source code of the strategies. However, we can provide the references (our own research notebooks, papers, books, websites) that have inspired the creation of a specific strategy upon request.
+
+**Can a strategy be customized to satisfy specific needs?**<br>
+Yes, please contact us at <info@ithacainvestments.org>
 
 **Can you help us implementing and testing a new strategy/idea?**<br>
 Yes, please contact us at <info@ithacainvestments.org>
