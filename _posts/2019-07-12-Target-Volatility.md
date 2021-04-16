@@ -13,6 +13,7 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 
 #### Strategy details
 * Asset classes: equities, government bonds
+* Number of assets: 3
 * Backtest period: Jan 2003 - Nov 2020
 * Rebalancing frequency: variable, average 8/year
 * CAGR: 7.07 %
