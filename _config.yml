@@ -29,6 +29,9 @@ plugins:
 
 google_analytics: UA-173001305-1
 
+disqus:
+  shortname: ithacainvestments
+
 # Sidebar link settings
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
