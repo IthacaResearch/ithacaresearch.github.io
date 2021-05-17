@@ -5,7 +5,8 @@ sidebar_sort_order: 800
 ---
 
 ## Subscription
-The details of all our strategies are public. Please ask for a quote at <info@ithacainvestments.org> to receive live updates via e-mail with the latest allocations.
+Please ask for a trial period (maximum three months) or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
+The rationale behind each strategy is public and can be found on this website. If you have any questions please contact us at <info@ithacainvestments.org>.
 
 ### Sample email
 The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range `[-max leverage, max leverage]`, where the maximum leverage depends on the strategy.
