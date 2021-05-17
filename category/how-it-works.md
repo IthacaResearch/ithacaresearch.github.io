@@ -50,6 +50,9 @@ Yes, they are available upon request.
 **Can you provide further details about the strategies' inner workings?**<br>
 We cannot provide the source code of the strategies. However, we can provide the references (our own research notebooks, papers, books, websites) that have inspired the creation of a specific strategy upon request.
 
+**I'd like to paper-trade the strategies for some time, do you offer a test period?**<br>
+Yes, you can receive free updates from the strategies for up to three months before deciding whether or not to subscribe.
+
 **Can a strategy be customized to satisfy specific needs?**<br>
 Yes, please contact us at <info@ithacainvestments.org>
 
