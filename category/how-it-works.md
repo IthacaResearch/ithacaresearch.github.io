@@ -10,7 +10,7 @@ The rationale behind each strategy is public and can be found on this website. I
 
 ### Sample email
 The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already, the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range `[-max leverage, max leverage]`, where the maximum leverage depends on the strategy.<br>
-The email body is in yaml format, so that you could easily parse the message with open source libraries and execute the trades automatically, for example using [ib_insync](https://github.com/erdewit/ib_insync).
+The email body is in yaml format, so that you could easily parse the message with open source libraries like [PyYAML](https://pyyaml.org/) and execute the trades automatically, for example using [ib_insync](https://github.com/erdewit/ib_insync).
 
 - Subject: ```REBALANCE: StrategyName strategy on 2019-03-03 00:00:00```
 - Body:
