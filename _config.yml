@@ -1,6 +1,3 @@
-
-remote_theme: mmistakes/minimal-mistakes
-
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
@@ -29,7 +26,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-include-cache
 
 google_analytics: UA-173001305-1
 
