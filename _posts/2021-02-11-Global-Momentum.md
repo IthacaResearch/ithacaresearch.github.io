@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Global Momentum"
 categories:
   - "Strategy Prospectus"
