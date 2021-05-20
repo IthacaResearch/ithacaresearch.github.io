@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: Target Volatility
 tags: TargetVolatility Prospectus
 excerpt_separator:  <!--more-->
