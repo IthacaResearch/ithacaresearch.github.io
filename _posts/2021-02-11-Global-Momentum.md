@@ -2,8 +2,6 @@
 layout: post
 title: Global Momentum
 subtitle: Strategy Prospectus
-tags: GlobalMomentum Prospectus
-
 ---
 
 This strategy evaluates a momentum based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
