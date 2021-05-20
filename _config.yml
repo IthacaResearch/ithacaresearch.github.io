@@ -94,15 +94,15 @@ analytics:
 
 # Site Author
 author:
-  name             : #
+  name             : Ithaca Investments
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"I am an **amazing** person."
   location         : #"Somewhere"
-  email            :
+  email            : info@ithacainvestments.org
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:info@ithacainvestments.org"
+      url: "mailto:info@ithacainvestments.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,6 +122,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:info@ithacainvestments.org"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
