@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category
 title: About
 sidebar_link: true
 sidebar_sort_order: 900
