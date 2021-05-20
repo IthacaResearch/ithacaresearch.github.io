@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Target Volatility 3X
 tags: TargetVolatility Prospectus 3X HighRisk
 excerpt_separator:  <!--more-->
