@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: /category/
+    url: /category/about
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
