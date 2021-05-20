@@ -2,18 +2,17 @@
 layout: archive
 ---
 
-<div class="content">
+<div>
 
   {{ content }}
 
   {% for post in paginator.posts %}
-  <article class="post-body">
-    <h2 class="post-title">
+  <article>
+    <h2>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
     </h2>
-    {% include post-meta.html post=post %}
 
     {% if post.excerpt %}
       {{ post.excerpt }}
