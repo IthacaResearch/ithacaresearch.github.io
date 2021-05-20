@@ -2,20 +2,39 @@
 layout: archive
 ---
 
-{{ content }}
+<div class="content">
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  {{ content }}
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+  {% for post in paginator.posts %}
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    {% include post-meta.html post=post %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+    {% if post.excerpt %}
+      {{ post.excerpt }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+
+    {% if post.excerpt %}
+      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+
+      {% if content_words != excerpt_words %}
+        <a href="{{ post.url | relative_url }}">More &hellip;</a>
+      {% endif %}
+    {% endif %}
+  </article>
   {% endfor %}
 </div>
 
