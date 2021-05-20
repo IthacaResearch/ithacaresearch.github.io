@@ -63,6 +63,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+  
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -86,9 +87,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-173001305-1
+    tracking_id          : "UA-173001305-1"
     anonymize_ip         : false # true, false (default)
 
 
@@ -187,7 +188,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "<!-- more -->" #"\n\n"
+excerpt_separator: "\n\n"
 incremental: false
 
 
@@ -211,7 +212,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 99 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
