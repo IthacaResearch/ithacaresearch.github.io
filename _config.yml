@@ -15,7 +15,6 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-excerpt_separator : "<!-- more -->"
 locale                   : "en-US"
 title                    : "Ithaca"
 title_separator          : "-"
@@ -188,7 +187,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!-- more -->" #"\n\n"
 incremental: false
 
 
