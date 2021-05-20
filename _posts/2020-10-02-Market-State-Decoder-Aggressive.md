@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Market State Decoder (Aggressive)
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
