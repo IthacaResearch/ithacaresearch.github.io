@@ -26,5 +26,6 @@ The main source of underperformance for this strategy is the lack of a clear tre
 * Detailed tearsheet: [Global Momentum](/tearsheets/global_momentum.html)
 
 #### Equity curve
-Sampling of the equity curve is on a _monthly_ basis. 
+Sampling of the equity curve is on a _monthly_ basis.
+
 ![Global Momentum](/images/global_momentum.svg)
