@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Market State Decoder (Defensive)
 subtitle: Strategy Prospectus
 tags: MarketStateDecoder Prospectus
