@@ -5,7 +5,7 @@ sidebar_sort_order: 800
 ---
 
 ## Subscription
-Please ask for a trial period (maximum three months) or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
+Ask for a trial period (maximum three months) or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
 The rationale behind each strategy is public and can be found on this website. If you have any questions please contact us at <info@ithacainvestments.org>.
 
 ### Sample email
@@ -38,7 +38,7 @@ Message:
 Returns are total returns, that is, the backtests assume no withdrawals, and that all distributions (such as dividends) are reinvested in the strategy.
 
 **How realistic are the backtest results?**<br>
-All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are always fully filled.
+All backtests account for transaction fees and slippage, while bid-ask spreads are not taken into account. Orders are simulated as market on close orders and are always fully filled.
 
 **What is the benchmark displayed in some of the strategies results?**<br>
 The benchmark is the S&P 500 index.
