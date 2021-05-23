@@ -1,5 +1,6 @@
 ---
 title: Market State Decoder (Aggressive)
+permalink: /strategies/market-state-decoder-aggressive
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
 ---
