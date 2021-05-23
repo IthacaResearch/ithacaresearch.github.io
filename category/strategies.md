@@ -8,7 +8,7 @@ sidebar_sort_order: 2
 
 | Strategy | CAGR | Max Drawdown | Sharpe | Leverage | Backtest period |
 | :------- | :--: | :----------: | :----: | :------: | :-------------: |
-| [Fixed Income's Edge](https://ithacaresearch.github.io/2019/10/14/Fixed-income-edge.html) | 10.49 % | 8 % | 1.44 | 1 | Jan 2003 - Today |
+| [Fixed Income's Edge](/strategies/fixed-incomes-edge) | 10.49 % | 8 % | 1.44 | 1 | Jan 2003 - Today |
 | [Market State Decoder (Aggressive)](https://ithacaresearch.github.io/2020/10/02/Market-State-Decoder-Aggressive.html) | 14.17 % | 19.8 % | 0.98 | 1 | Jan 1998 - Today |
 | [Market State Decoder (Diversified)](https://ithacaresearch.github.io/2020/10/02/Market-State-Decoder-Diversified.html) | 10.32 % | 13.04 % | 1.05 | 1 | Jan 1998 - Today |
 | [Target Volatility](https://ithacaresearch.github.io/2019/07/12/Target-Volatility.html) | 7.07 % | 5.06 % | 1.46 | 1 | Jan 2003 - Today |
