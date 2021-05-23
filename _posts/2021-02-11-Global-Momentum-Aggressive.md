@@ -1,5 +1,6 @@
 ---
 title: "Global Momentum (Aggressive)"
+permalink: /strategies/global-momentum-aggressive
 categories:
   - "Strategy Prospectus"
 ---
