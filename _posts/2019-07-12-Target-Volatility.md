@@ -20,8 +20,8 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 * Maximum drawdown: 5.06 %
 * Sharpe ratio: 1.46
 * Leverage: 1
-* Detailed tearsheet: [Target Volatility](/tearsheets/target_volatility.html)
+* Detailed tearsheet: [Target Volatility](/tearsheets/TargetVolatility.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Target Volatility](/images/target_volatility.svg)
+![Target Volatility](/images/TargetVolatility.svg)
