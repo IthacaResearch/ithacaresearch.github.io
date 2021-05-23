@@ -1,5 +1,6 @@
 ---
 title: Two Regimes
+permalink: /strategies/two-regimes
 tags: TwoRegimes Prospectus
 excerpt_separator:  <!--more-->
 ---
