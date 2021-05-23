@@ -23,9 +23,9 @@ The main risk of this strategy is the allocation percentage: when the confidence
 * Sharpe: 1.16
 * Max Drawdown: -15.31%
 * Leverage: 1
-* Detailed tearsheet: [Two Regimes](/tearsheets/two_regimes.html)
+* Detailed tearsheet: [Two Regimes](/tearsheets/TwoRegimes.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
-![Two Regimes](/images/two_regimes.svg)
+![Two Regimes](/images/TwoRegimes.svg)
 
