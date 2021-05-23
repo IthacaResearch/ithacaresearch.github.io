@@ -1,5 +1,6 @@
 ---
 title: "Global Momentum (Defensive)"
+permalink: /strategies/global-momentum-defensive
 categories:
   - "Strategy Prospectus"
 ---
