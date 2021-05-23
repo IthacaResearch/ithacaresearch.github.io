@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Target Volatility
+permalink: /strategies/target-volatility
 tags: TargetVolatility Prospectus
 excerpt_separator:  <!--more-->
 ---
