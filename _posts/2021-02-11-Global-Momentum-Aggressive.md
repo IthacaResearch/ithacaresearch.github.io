@@ -1,5 +1,5 @@
 ---
-title: "Global Momentum Aggressive"
+title: "Global Momentum (Aggressive)"
 categories:
   - "Strategy Prospectus"
 ---
