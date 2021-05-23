@@ -1,5 +1,5 @@
 ---
-title: "Global Momentum Defensive"
+title: "Global Momentum (Defensive)"
 categories:
   - "Strategy Prospectus"
 ---
