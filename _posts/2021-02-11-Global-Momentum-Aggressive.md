@@ -14,7 +14,7 @@ The main source of underperformance for this strategy is the lack of a clear tre
 
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
-* Number of assets: 26
+* Number of assets: 25
 * Backtest period: Jan 1998 - Apr 2021
 * Rebalancing frequency: monthly
 * CAGR: 14.02 %
