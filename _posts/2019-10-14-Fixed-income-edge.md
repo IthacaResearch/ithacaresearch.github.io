@@ -1,5 +1,6 @@
 ---
 title: Fixed Income's Edge
+permalink: /strategies/fixed-incomes-edge
 tags: FixedIncomeEdge Prospectus
 excerpt_separator:  <!--more-->
 ---
