@@ -4,13 +4,13 @@ categories:
   - "Strategy Prospectus"
 ---
 
-This strategy evaluates a momentum based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
+This strategy evaluates a Sharpe ratio based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
 
 Assets are grouped in three categories: risky assets (for example equities), safe assets (for example government bonds), and risk-free assets (for example ultra short term government bonds). If there is no asset with a positive score in a given category, the corresponding part of the portfolio will be allocated to the highest ranking risk-free assets.
 
-The main advantage of this strategy is its ability to avoid major equity markets downtrends through diversification and momentum filtering.
+Compared to the "aggressive" variant, this one leverages an even broader diversification and focuses on increasing the predictability of the returns rather than maximizing the returns themselves.
 
-The main source of underperformance for this strategy is the lack of a clear trend across different asset classes.
+The main source of underperformance for this strategy is the same as for the "aggressive" variant: a lack of a clear trend across different asset classes. Compared to the other variant, the broader diversification helps reducing this problem though.
 
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
