@@ -23,7 +23,7 @@ The main source of underperformance for this strategy is the lack of a clear tre
 * Max Drawdown: -21.15 %
 * Sharpe ratio: 1.1
 * Leverage: 1
-* Detailed tearsheet: [Global Momentum](/tearsheets/GlobalMomentumAggressive.html)
+* Detailed tearsheet: [Global Momentum Aggressive](/tearsheets/GlobalMomentumAggressive.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
