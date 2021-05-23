@@ -24,8 +24,8 @@ There are two versions of this strategy; the one described on this page is named
 * Max Drawdown: -19.8 %
 * Sharpe ratio: 0.98
 * Leverage: 1
-* Detailed tearsheet: [Market State Decoder Aggressive](/tearsheets/market_state_decoder_aggressive.html)
+* Detailed tearsheet: [Market State Decoder Aggressive](/tearsheets/MarketStateDecoderAggressive.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Market State Decoder](/images/market_state_decoder_aggressive.svg)
+![Market State Decoder](/images/MarketStateDecoderAggressive.svg)
