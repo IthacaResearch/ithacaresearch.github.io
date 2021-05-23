@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Two Regimes
 tags: TwoRegimes Prospectus
 excerpt_separator:  <!--more-->

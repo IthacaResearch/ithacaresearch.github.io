@@ -1,9 +1,7 @@
 ---
-layout: post
-title: Global Momentum (Aggressive)
-subtitle: Strategy Prospectus
-tags: GlobalMomentum Prospectus
-excerpt_separator:  <!--more-->
+title: "Global Momentum Aggressive"
+categories:
+  - "Strategy Prospectus"
 ---
 
 This strategy evaluates a momentum based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
@@ -26,5 +24,6 @@ The main source of underperformance for this strategy is the lack of a clear tre
 * Detailed tearsheet: [Global Momentum Aggressive](/tearsheets/GlobalMomentumAggressive.html)
 
 #### Equity curve
-Sampling of the equity curve is on a _monthly_ basis. 
+Sampling of the equity curve is on a _monthly_ basis.
+
 ![Global Momentum](/images/global_momentum.svg)

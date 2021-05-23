@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "About"
+    url: /category/about
+  - title: "How it works"
+    url: /category/how-it-works
+  - title: "Strategies"
+    url: /category/strategies
+  - title: "Contacts"
+    url: /category/contacts
+  - title: "Disclaimer"
+    url: /category/disclaimer
