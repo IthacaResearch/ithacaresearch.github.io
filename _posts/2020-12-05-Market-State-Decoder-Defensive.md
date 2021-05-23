@@ -2,6 +2,7 @@
 layout: single
 title: Market State Decoder (Defensive)
 subtitle: Strategy Prospectus
+permalink: /strategies/market-state-decoder-defensive
 tags: MarketStateDecoder Prospectus
 excerpt_separator:  <!--more-->
 ---
