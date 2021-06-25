@@ -6,7 +6,6 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-top: $masthead-height;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -37,6 +36,8 @@ body {
 }
 
 .page {
+  padding-top: $masthead-height;
+	
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
