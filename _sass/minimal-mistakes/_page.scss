@@ -20,6 +20,7 @@
 }
 
 body {
+  padding-top: $masthead-height;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,8 +37,6 @@ body {
 }
 
 .page {
-  padding-top: $masthead-height;
-	
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
