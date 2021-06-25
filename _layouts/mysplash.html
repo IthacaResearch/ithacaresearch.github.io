@@ -14,9 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
-</div>
 <div class="archive">
 
   {% for post in paginator.posts %}
@@ -48,6 +45,10 @@ layout: default
     {% endif %}
   </article>
   {% endfor %}
+</div>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
 </div>
 
 {% include paginator.html %}
