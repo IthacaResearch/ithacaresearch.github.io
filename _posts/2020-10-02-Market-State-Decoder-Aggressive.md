@@ -12,7 +12,7 @@ The "state" of an asset is a quantity determined from several parameters specifi
 
 The main advantage of this strategy is its ability to provide a significant improvement over the equity markets performance with a relatively low rebalancing frequency.
 
-The main reason of underperformance for this strategy is a period in which the major equity indices continuosly switch state (i.e. when equity markets move sideways).
+The main reason of underperformance for this strategy is a period in which the major equity indices continuously switch state (i.e. when equity markets move sideways).
 
 There are two versions of this strategy; the one described on this page is named "aggressive" as the allocations to each asset class can reach 100% of the overall value of the portfolio.
 
