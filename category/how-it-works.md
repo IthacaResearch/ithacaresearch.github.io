@@ -5,8 +5,8 @@ sidebar_sort_order: 800
 ---
 
 ## Subscription
-Ask for a trial period (maximum three months) or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
-The rationale behind each strategy is public and can be found on this website. If you have any questions please contact us at <info@ithacainvestments.org>.
+You can ask for a trial period (maximum three months), or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
+The rationale behind each strategy is public and can be found on this website. If you have any questions please [contact us](/category/contacts).
 
 ### Sample email
 The emails you will receive once subscribed will be in the same format of the one below. If you are not using the strategy already, the only relevant information is provided by "Target weights", as your current allocation (weights) is assumed to be zero for all assets. The weights specified in the emails are in the range `[-max leverage, max leverage]`, where the maximum leverage depends on the strategy.<br>
@@ -44,7 +44,7 @@ All backtests account for transaction fees and slippage, while bid-ask spreads a
 The benchmark is the S&P 500 index.
 
 **Can the strategies be combined together?**<br>
-Absolutely, that is actually how we are currently using them. Please contact us at <info@ithacainvestments.org> if you'd like to review the results of a specific combination of strategies and/or to receive updates for a specific combination.
+Absolutely, that is actually how we are currently using them. Please [contact us](/category/contacts) if you'd like to review the results of a specific combination of strategies, and/or to receive updates for a custom combination.
 
 **Can you provide the trade logs of the backtests?**<br>
 Yes, they are available upon request.
@@ -56,10 +56,10 @@ We cannot provide the source code of the strategies. However, we can provide the
 Yes, you can receive free updates from the strategies for up to three months before deciding whether or not to subscribe.
 
 **Can a strategy be customized to satisfy specific needs?**<br>
-Yes, please contact us at <info@ithacainvestments.org>
+Yes, please [contact us](/category/contacts)
 
 **Can you help us implementing and testing a new strategy/idea?**<br>
-Yes, please contact us at <info@ithacainvestments.org>
+Yes, please [contact us](/category/contacts)
 
 **How do I execute the trades?**<br>
 To execute the strategies you need to have a brokerage account (some banks provide also brokerage services). The available brokers vary from country to country, as well as the functionalities they provide, the fees they charge, and the products you can trade through them. Here is a list of the most popular brokers:
