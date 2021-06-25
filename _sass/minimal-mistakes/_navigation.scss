@@ -179,6 +179,7 @@
   min-height: $nav-height;
   height: $nav-height;
   background: $background-color;
+  border-bottom: 1px solid $border-color;
 
   a {
     display: block;
