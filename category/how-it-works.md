@@ -4,6 +4,14 @@ title: How it works
 sidebar_sort_order: 800
 ---
 
+## Introduction
+Systematic investment strategies have several advantages over discretionary ones:
+1. investment decisions are not based on emotions
+2. the key elements of an investment plan are clearly defined and acted upon: entry criteria, exit criteria, maximum and minimum exposure
+3. the actual results can be easily compared to the expected results
+4. the investment process can be fully automated
+5. it is possible to simulate the strategies using past data to get an idea of the strategy's characteristics
+
 ## Subscription
 You can ask for a trial period (maximum three months), or for a quote at <info@ithacainvestments.org>. The only information we need for you to start receiving live updates is a valid email address. You will start receiving updates on the next business day.
 The rationale behind each strategy is public and can be found on this website. If you have any questions please [contact us](/category/contacts).
