@@ -17,9 +17,9 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 * Number of assets: 3
 * Backtest period: Jan 2003 - Nov 2020
 * Rebalancing frequency: variable, average 8/year
-* CAGR: 7.07 %
-* Maximum drawdown: 5.06 %
-* Sharpe ratio: 1.46
+* CAGR: 6.17 %
+* Maximum drawdown: 7.48 %
+* Sharpe ratio: 1.27
 * Leverage: 1
 * Detailed tearsheet: [Target Volatility](/tearsheets/TargetVolatility.html)
 
