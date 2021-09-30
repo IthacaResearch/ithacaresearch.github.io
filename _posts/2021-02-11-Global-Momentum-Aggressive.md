@@ -16,11 +16,11 @@ The main source of underperformance for this strategy is the lack of a clear tre
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
 * Number of assets: 25
-* Backtest period: Jan 1998 - Apr 2021
+* Backtest period: Jan 1998 - Sep 2021
 * Rebalancing frequency: monthly
-* CAGR: 14.02 %
-* Max Drawdown: -21.15 %
-* Sharpe ratio: 1.1
+* CAGR: 13.88 %
+* Max Drawdown: 20.9 %
+* Sharpe ratio: 1.08
 * Leverage: 1
 * Detailed tearsheet: [Global Momentum Aggressive](/tearsheets/GlobalMomentumAggressive.html)
 
