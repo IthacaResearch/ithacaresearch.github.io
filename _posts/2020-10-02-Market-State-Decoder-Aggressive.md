@@ -1,7 +1,7 @@
 ---
 title: Market State Decoder (Aggressive)
 permalink: /strategies/market-state-decoder-aggressive
-tags: MarketStateDecoder Prospectus
+show_date: false
 excerpt_separator:  <!--more-->
 ---
 
