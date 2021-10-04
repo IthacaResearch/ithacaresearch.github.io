@@ -1,8 +1,6 @@
 ---
 title: "Global Momentum (Aggressive)"
 permalink: /strategies/global-momentum-aggressive
-categories:
-  - "Strategy Prospectus"
 ---
 
 This strategy evaluates a momentum based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
