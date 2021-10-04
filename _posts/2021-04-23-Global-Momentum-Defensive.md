@@ -1,8 +1,6 @@
 ---
 title: "Global Momentum (Defensive)"
 permalink: /strategies/global-momentum-defensive
-categories:
-  - "Strategy Prospectus"
 ---
 
 This strategy evaluates a Sharpe ratio based score for each asset, then ranks the assets within the same category according to their scores, and invests in equal parts in the highest ranking assets in each category.
