@@ -1,7 +1,6 @@
 ---
 title: Target Volatility 3X
 permalink: /strategies/target-volatility-3x
-tags: TargetVolatility Prospectus 3X HighRisk
 excerpt_separator:  <!--more-->
 ---
 
