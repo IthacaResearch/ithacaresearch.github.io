@@ -1,6 +1,6 @@
 ---
-title: Target Volatility 3X
-permalink: /strategies/target-volatility-3x
+title: Target Volatility 2X
+permalink: /strategies/target-volatility-2x
 excerpt_separator:  <!--more-->
 ---
 
@@ -17,12 +17,12 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 * Number of assets: 3
 * Backtest period: Jan 2010 - Nov 2020
 * Rebalancing frequency: variable
-* CAGR: 24.26 %
-* Maximum drawdown: 23 %
-* Sharpe ratio: 1.24
-* Leverage: variable, maximum 3
-* Detailed tearsheet: [Target Volatility 3X](/tearsheets/target_volatility_3x.html)
+* CAGR: 12.97 %
+* Maximum drawdown: 14 %
+* Sharpe ratio: 1.31
+* Leverage: variable, maximum 2
+* Detailed tearsheet: [Target Volatility 2x](/tearsheets/target_volatility_3x.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
-![Target Volatility 3X](/images/target_volatility_3x.svg)
+![Target Volatility 2x](/images/target_volatility_3x.svg)
