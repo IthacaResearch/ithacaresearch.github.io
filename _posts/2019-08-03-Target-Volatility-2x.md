@@ -1,5 +1,5 @@
 ---
-title: Target Volatility 2X
+title: Target Volatility 2x
 permalink: /strategies/target-volatility-2x
 excerpt_separator:  <!--more-->
 ---
