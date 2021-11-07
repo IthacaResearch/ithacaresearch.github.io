@@ -14,7 +14,7 @@ sidebar_sort_order: 2
 | [Market State Decoder (Aggressive)](/strategies/market-state-decoder-aggressive) | 13.89 % | 19.64 % | 0.96 | 1 | Jan 1998 - Today |
 | [Market State Decoder (Defensive)](/strategies/market-state-decoder-defensive) | 10.04 % | 11.06 % | 1.07 | 1 | Jan 1998 - Today |
 | [Target Volatility](/strategies/target-volatility) | 6.17 % | 7.48 % | 1.27 | 1 | Jan 2003 - Today |
-| [Target Volatility 3X](/strategies/target-volatility-3x) | 23.75 % | 24.26 % | 1.24 | variable, max 3 | Jan 2010 - Today |
+| [Target Volatility 2x](/strategies/target-volatility-2x) | 23.75 % | 24.26 % | 1.24 | variable, max 3 | Jan 2010 - Today |
 | [Two Regimes](/strategies/two-regimes) | 16.9 % | 15.3 % | 1.27 | 1 | Jan 1998 - Today |
 
 Statistics last updated on: 30 Sep 2021
