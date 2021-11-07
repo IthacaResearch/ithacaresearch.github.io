@@ -17,8 +17,8 @@ The main source of underperformance for this strategy is the same as for the "ag
 * Backtest period: Jan 1998 - Nov 2021
 * Rebalancing frequency: monthly
 * CAGR: 13.9 %
-* Max Drawdown: -15.91 %
-* Sharpe ratio: 1.3
+* Max Drawdown: -19.13 %
+* Sharpe ratio: 1.13
 * Leverage: 1
 * Detailed tearsheet: [Global Momentum Defensive](/tearsheets/GlobalMomentumBalanced.html)
 
