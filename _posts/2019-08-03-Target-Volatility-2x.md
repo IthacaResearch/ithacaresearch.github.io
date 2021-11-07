@@ -15,14 +15,14 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 #### Strategy details
 * Asset classes: equities, government bonds
 * Number of assets: 3
-* Backtest period: Jan 2010 - Nov 2020
+* Backtest period: Jan 2003 - Nov 2021
 * Rebalancing frequency: variable
-* CAGR: 12.97 %
-* Maximum drawdown: 14 %
-* Sharpe ratio: 1.31
+* CAGR: 12.93 %
+* Maximum drawdown: 14.54 %
+* Sharpe ratio: 1.32
 * Leverage: variable, maximum 2
-* Detailed tearsheet: [Target Volatility 2x](/tearsheets/target_volatility_3x.html)
+* Detailed tearsheet: [Target Volatility 2x](/tearsheets/TargetVolatility2x.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis.
-![Target Volatility 2x](/images/target_volatility_3x.svg)
+![Target Volatility 2x](/images/TargetVolatility2x.svg)
