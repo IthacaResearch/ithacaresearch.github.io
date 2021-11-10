@@ -9,7 +9,7 @@ Assets are grouped in three categories: risky assets (for example equities), saf
 
 This strategy is the most broadly diversified of the Global Momentum family, and focuses on maximizing the predictability of the returns rather than the returns.
 
-The main source of underperformance for this strategy is the same as for its "aggressive" variant: a lack of a clear trend across different asset classes. Compared to the other variant though, the broader diversification helps reducing this problem.
+The main source of underperformance for this strategy is the same as for its "aggressive" variant: a lack of a clear trend across different asset classes. This stategy's broader diversification helps in limiting the impact of this scenario.
 
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
