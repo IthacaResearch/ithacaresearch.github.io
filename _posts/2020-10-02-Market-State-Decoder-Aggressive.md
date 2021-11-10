@@ -14,7 +14,7 @@ The main advantage of this strategy is its ability to provide a significant impr
 
 The main reason of underperformance for this strategy is a period in which the major equity indices continuously switch state (i.e. when equity markets move sideways).
 
-There are two versions of this strategy; the one described on this page is named "aggressive" as the allocations to each asset class can reach 100% of the overall value of the portfolio.
+There are three versions of this strategy; the one described on this page is named "aggressive" as the allocations to one asset class can reach 100% of the overall value of the portfolio.
 
 #### Strategy details
 * Asset classes: equities, government bonds
