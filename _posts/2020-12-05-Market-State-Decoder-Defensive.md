@@ -6,8 +6,6 @@ permalink: /strategies/market-state-decoder-defensive
 excerpt_separator:  <!--more-->
 ---
 
-> _There is nothing permanent except change_ - Heraclitus
-
 This strategy evaluates the "state" in which each portfolio asset is in, and invests in the assets with the best upside outlook.
 The "state" of an asset is a quantity determined from several parameters specific to each security, as: volatility, volumes, short and long term trends, correlations with other assets. Once the states have been determined, the portfolio is allocated to the securities with the highest state-wise rank.
 
