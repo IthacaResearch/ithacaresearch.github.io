@@ -17,7 +17,7 @@ The main source of underperformance for this strategy is the same as for the "Ag
 * CAGR: 13.9 %
 * Max Drawdown: -19.13 %
 * Sharpe ratio: 1.13
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Global Momentum Balanced](/tearsheets/GlobalMomentumBalanced.html)
 
 #### Equity curve
