@@ -19,7 +19,7 @@ The main source of risk for this strategy is an end of the seasonalities exhibit
 * CAGR: 10.49 %
 * Maximum drawdown: 8.0 %
 * Sharpe ratio: 1.44
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Fixed Income's Edge](/tearsheets/fixed_income_edge.html)
 
 #### Equity curve
