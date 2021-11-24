@@ -19,7 +19,7 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 * CAGR: 6.42 %
 * Maximum drawdown: 7.27 %
 * Sharpe ratio: 1.31
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Target Volatility](/tearsheets/TargetVolatility.html)
 
 #### Equity curve
