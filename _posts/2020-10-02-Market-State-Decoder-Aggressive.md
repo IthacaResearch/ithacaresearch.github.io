@@ -24,7 +24,7 @@ There are three versions of this strategy; the one described on this page is nam
 * CAGR: 13.89 %
 * Max Drawdown: -19.64 %
 * Sharpe ratio: 0.96
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Market State Decoder Aggressive](/tearsheets/MarketStateDecoderAggressive.html)
 
 #### Equity curve
