@@ -20,7 +20,7 @@ The main risks of this strategy are high leverage and unforeseen changes in corr
 * CAGR: 12.93 %
 * Maximum drawdown: 14.54 %
 * Sharpe ratio: 1.32
-* Leverage: variable, maximum 2
+* Maximum leverage: 2 (long only)
 * Detailed tearsheet: [Target Volatility 2x](/tearsheets/TargetVolatility2x.html)
 
 #### Equity curve
