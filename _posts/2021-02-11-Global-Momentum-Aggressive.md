@@ -19,7 +19,7 @@ The main source of underperformance for this strategy is the lack of a clear tre
 * CAGR: 14.8 %
 * Max Drawdown: 26.83 %
 * Sharpe ratio: 1.05
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Global Momentum Aggressive](/tearsheets/GlobalMomentumAggressive.html)
 
 #### Equity curve
