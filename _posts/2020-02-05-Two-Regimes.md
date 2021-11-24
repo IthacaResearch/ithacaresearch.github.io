@@ -22,7 +22,7 @@ The main risk of this strategy is the allocation percentage: when the confidence
 * CAGR: 16.97%
 * Sharpe: 1.29
 * Max Drawdown: 13.53%
-* Leverage: 1
+* Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Two Regimes](/tearsheets/TwoRegimes.html)
 
 #### Equity curve
