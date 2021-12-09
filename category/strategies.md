@@ -18,4 +18,4 @@ sidebar_sort_order: 2
 | [Target Volatility 2x](/strategies/target-volatility-2x) | 12.93 % | 14.54 % | 1.32 | variable, max 2 | Jan 2003 - Today |
 | [Two Regimes](/strategies/two-regimes) | 16.97 % | 13.5 % | 1.29 | 1 | Jan 1998 - Today |
 
-Statistics last updated on: 30 Sep 2021
+Statistics last updated on: 03 Dec 2021
