@@ -5,7 +5,7 @@ sidebar_sort_order: 800
 ---
 
 ## Introduction
-The _Ithaca_ platform runs several automated, systematic investment strategies, and sends emails to the subscribers every time a strategy detects that a rebalance of the portfolio is necessary.
+The _Ithaca_ platform runs several automated, systematic investment strategies, and sends emails to the subscribers every time a strategy detects that a rebalance of the portfolio is necessary. An overview of all strategies is [here](/category/strategies).
 
 Systematic investment strategies have several advantages over discretionary ones:
 1. investment decisions are not based on emotions
