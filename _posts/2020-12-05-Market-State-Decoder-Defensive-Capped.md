@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Market State Decoder (Defensive)
+title: Market State Decoder (Defensive, Capped)
 subtitle: Strategy Prospectus
 permalink: /strategies/market-state-decoder-defensive
 excerpt_separator:  <!--more-->
@@ -26,8 +26,8 @@ There are three versions of this strategy; the one described on this page is nam
 * Max Drawdown: 11.06 %
 * Sharpe ratio: 1.07
 * Maximum leverage: 1 (long only)
-* Detailed tearsheet: [Market State Decoder Defensive](/tearsheets/MarketStateDecoderDefensive.html)
+* Detailed tearsheet: [Market State Decoder Defensive Capped](/tearsheets/MarketStateDecoderDefensiveCapped.html)
 
 #### Equity curve
 Sampling of the equity curve is on a _monthly_ basis. 
-![Market State Decoder Defensive](/images/MarketStateDecoderDefensive.svg)
+![Market State Decoder Defensive](/images/MarketStateDecoderDefensiveCapped.svg)
