@@ -19,8 +19,8 @@ The main risk of this strategy is the allocation percentage: when the confidence
 * Number of assets: 3
 * Backtest period: Jan 1998 - Sep 2021
 * Rebalancing frequency: variable, average: 3/year
-* CAGR: 16.97%
-* Sharpe: 1.29
+* CAGR: 17.46%
+* Sharpe: 1.34
 * Max Drawdown: 13.53%
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Two Regimes](/tearsheets/TwoRegimes.html)
