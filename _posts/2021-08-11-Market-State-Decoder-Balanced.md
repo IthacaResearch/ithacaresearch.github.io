@@ -18,11 +18,11 @@ There are three versions of this strategy. The one described on this page is nam
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
 * Number of assets: 10
-* Backtest period: Jan 1998 - Nov 2021
+* Backtest period: Jan 1998 - Jan 2022
 * Rebalancing frequency: variable, average 4/year
-* CAGR: 12.05 %
+* CAGR: 12.36 %
 * Max Drawdown: 13.52 %
-* Sharpe ratio: 0.99
+* Sharpe ratio: 1.04
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Market State Decoder Balanced](/tearsheets/MarketStateDecoderBalanced.html)
 
