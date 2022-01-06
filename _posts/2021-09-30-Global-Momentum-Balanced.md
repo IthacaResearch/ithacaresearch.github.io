@@ -12,11 +12,11 @@ The main source of underperformance for this strategy is the same as for the "Ag
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
 * Number of assets: 25
-* Backtest period: Jan 1998 - Nov 2021
+* Backtest period: Jan 1998 - Jan 2022
 * Rebalancing frequency: monthly
-* CAGR: 13.9 %
-* Max Drawdown: -19.13 %
-* Sharpe ratio: 1.13
+* CAGR: 13.93 %
+* Max Drawdown: -18.48 %
+* Sharpe ratio: 1.16
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Global Momentum Balanced](/tearsheets/GlobalMomentumBalanced.html)
 
