@@ -8,6 +8,7 @@ sidebar_sort_order: 2
 
 | Strategy | CAGR | Max Drawdown | Sharpe | Leverage | Backtest period |
 | :------- | :--: | :----------: | :----: | :------: | :-------------: |
+| [Economic Cycle Speculator](/strategies/economic-cycle-speculator) | 14.61 % | 18.56 % | 1.01 | 1 | Jan 1998 - Today |
 | [Fixed Income's Edge](/strategies/fixed-incomes-edge) | 10.49 % | 8 % | 1.44 | 1 | Jan 2003 - Today |
 | [Global Momentum (Defensive)](/strategies/global-momentum-defensive) | 11.82 % | 15.91 % | 1.3 | 1 | Jan 1998 - Today |
 | [Global Momentum (Aggressive)](/strategies/global-momentum-aggressive) | 13.88 % | 20.9 % | 1.08 | 1 | Jan 1998 - Today |
