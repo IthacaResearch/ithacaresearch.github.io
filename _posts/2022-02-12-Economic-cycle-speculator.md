@@ -3,7 +3,7 @@ title: "Economic Cycle Speculator"
 permalink: /strategies/economic-cycle-speculator
 ---
 
-The performance of major asset classes (equties, bonds, commodities, real estate) is historically correlated with the current and prospective economic environment. Using GDP growth and inflation outlook to define an economic environment, we can group together the assets which usually performed best in each environment.
+The performance of major asset classes (equities, bonds, commodities, real estate) is historically correlated with the current and prospective economic environment. Using GDP growth and inflation outlook to define an economic environment, we can group together the assets which usually performed best in each environment.
 
 We calculate a momentum score for each asset and derive a cumulative score for each group. We then pick the best group(s), and from each of these the best assets. We finally invest equally in the resulting assets. The allocation to a single asset is never allowed to reach 100% of the portfolio value.
 
