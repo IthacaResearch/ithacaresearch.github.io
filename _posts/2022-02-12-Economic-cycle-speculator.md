@@ -15,7 +15,7 @@ The strategy performance is robust in the last 20+ years. Its volatility and dra
 * Backtest period: Jan 1998 - Feb 2022
 * Rebalancing frequency: monthly
 * CAGR: 14.61 %
-* Max Drawdown: -18.48 %
+* Max Drawdown: -18.56 %
 * Sharpe ratio: 1.01
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Economic Cycle Speculator](/tearsheets/EconomicCycleSpeculator.html)
