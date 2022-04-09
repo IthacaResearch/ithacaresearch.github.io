@@ -285,3 +285,16 @@ defaults:
       share: false
       related: true
       show_date: false
+  # _research
+  - scope:
+      path: /research/
+      type: research
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
