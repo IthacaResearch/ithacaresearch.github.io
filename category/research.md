@@ -1,1 +1,4 @@
-
+---
+layout: category
+title: Research
+---
