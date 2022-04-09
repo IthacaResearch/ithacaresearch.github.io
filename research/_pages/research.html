@@ -9,6 +9,6 @@ classes: wide
 
 A collection of our research activities.
 
-{% for res in site.research %}
+{% for res in site.research._pages %}
   <p>{{ res.content | markdownify }}</p>
 {% endfor %}
