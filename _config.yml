@@ -287,7 +287,7 @@ defaults:
       show_date: false
   # _research
   - scope:
-      path: /research/
+      path: /_research/
       type: research
     values:
       layout: single
