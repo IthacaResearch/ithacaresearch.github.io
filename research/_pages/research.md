@@ -6,3 +6,5 @@ collection: research
 entries_layout: grid
 classes: wide
 ---
+
+A collection of our research activities.
