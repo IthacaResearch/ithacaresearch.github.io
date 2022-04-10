@@ -4,8 +4,10 @@ title: How it works
 sidebar_sort_order: 800
 ---
 
+> _There is no favorable wind for the sailor who doesn’t know where to go_ - Seneca
+
 ## Introduction
-The _Ithaca_ platform runs several automated, systematic investment strategies, and sends emails to the subscribers every time a strategy detects that a rebalance of the portfolio is necessary. An overview of all strategies is [here](/category/strategies).
+_Ithaca_ is the pool of systematic investment strategies we originally developed to invest our own money. _Ithaca_ has evolved over the years into a platform that runs several automated, systematic investment strategies, and sends emails to the subscribers every time a strategy detects that a rebalance of the portfolio is necessary. An overview of all strategies is [here](/category/strategies).
 
 Systematic investment strategies have several advantages over discretionary ones:
 1. investment decisions are not based on emotions
