@@ -6,6 +6,8 @@ main:
     url: /category/how-it-works
   - title: "Strategies"
     url: /category/strategies
+  - title: "Research"
+    url: /research
   - title: "Contacts"
     url: /category/contacts
   - title: "Disclaimer"
