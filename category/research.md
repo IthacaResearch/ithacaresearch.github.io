@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-A collection of our research.
+A collection of our research activities.
