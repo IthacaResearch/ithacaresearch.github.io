@@ -11,7 +11,7 @@ The results look promising, and the possibility to have the model spitting out t
 
 > We use four market indices: US total stock index (VTI), US aggregate bond index (AGG), US commodity index (DBC) and Volatility Index (VIX).
 
-The VIX is not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there is no financial instrument that replicates the performance of the VIX. We could surely use VIX futures, VIX future options, ETFs based on VIX futures, but none of these track the VIX. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
+The VIX is not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there is no financial instrument that replicates the performance of the VIX. We could surely use VIX futures, VIX future options, or ETPs based on VIX futures, but none of these track the VIX. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
 
 Link to the original article: [Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
 
