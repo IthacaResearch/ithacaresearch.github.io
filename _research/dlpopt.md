@@ -1,9 +1,18 @@
 ---
 title: "An implementation of 'Deep Learning for Portfolio Optimization' by Zhang, Z. , Zohren, S. , Roberts, S."
-excerpt: "Can a diversified portfolio built using deep learning beat the risk adjusted returns of the market?"
+excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market?"
 ---
 
-[Link to the original paper](https://arxiv.org/pdf/2005.13665.pdf)
+
+
+Link to the original paper:
+[Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+
+Backtest results (no target volatility):
+[No target volatility](/notebooks/dlpopt_no_target_vol.html)
+
+Backtest results (annualized target volatility = 10%):
+[Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
 
 Model implementation:
 
