@@ -6,7 +6,8 @@ excerpt: "Can a diversified portfolio built using deep learning beat the risk ad
 [Link to the original paper](https://arxiv.org/pdf/2005.13665.pdf)
 
 Model implementation:
-```
+
+```python
 import gc
 import numpy as np
 np.random.seed(11)
@@ -168,7 +169,8 @@ class PredictionResults():
 ```
 
 Backtest code:
-```
+
+```python
 from QClibs import *
 from System import *
 
@@ -283,7 +285,8 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
 ```
 
 Lean engine dependencies:
-```
+
+```python
 from QuantConnect import *
 from QuantConnect.Parameters import *
 from QuantConnect.Benchmarks import *
