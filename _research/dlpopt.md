@@ -1,18 +1,23 @@
 ---
 title: "An implementation of 'Deep Learning for Portfolio Optimization' by Zhang, Z. , Zohren, S. , Roberts, S."
-excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market?"
+excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer: no."
 ---
 
+Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer: no.
 
+The article proposes an interesting approach to building a diversified portfolio using highly liquid Exchange Traded Funds (ETFs): a deep learning model is trained and used to obtain the portfolio weights which optimize the portfolio Sharpe ratio.
 
-Link to the original paper:
-[Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+The results look promising, and the possibility to have the model spitting out the optimal weights directly is definitely enticing. The major issue we have found with the article is the following:
 
-Backtest results (no target volatility):
-[No target volatility](/notebooks/dlpopt_no_target_vol.html)
+> We use four market indices: US total stock index (VTI), US aggregate bond index (AGG), US commodity index (DBC) and Volatility Index (VIX).
 
-Backtest results (annualized target volatility = 10%):
-[Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
+The VIX is not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there is no financial instrument that replicates the performance of the VIX. We could surely use VIX futures, VIX future options, ETFs based on VIX futures, but none of these track the VIX. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
+
+Link to the original article: [Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+
+Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
+
+Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
 
 Model implementation:
 
