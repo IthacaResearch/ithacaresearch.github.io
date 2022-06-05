@@ -41,7 +41,7 @@ The sets of assets we have considered are below.
 - Minimum weight change for rebalancing: 0
 - Target volatility: no
 
-This is a simple but diversified portfolio of stocks, bonds, and commodities. The performance of these (or similar) funds can reasonably be assumed to .
+This is a simple but diversified portfolio of stocks, bonds, and commodities. It attempts to replicate the set of assets used in the article while excluding VIX.
 
 ### Portfolio B
 - Assets: [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/VWESX), [DFIHX](https://finance.yahoo.com/quote/DFIHX)
