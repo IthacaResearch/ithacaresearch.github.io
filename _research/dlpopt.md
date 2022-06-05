@@ -19,7 +19,7 @@ The [VIX](https://www.cboe.com/tradable_products/vix/faqs/) is an index, not an 
 
 Although the performance of the strategy reported in the article cannot be actually replicated, we have benchmarked our implementation by using market data very similar to the one used by the authors. The source code shows [VXX](https://finance.yahoo.com/quote/VXX) (which is a listed instrument) as the instrument tracking the VIX, but its market data has been replaced with the [VIX](https://finance.yahoo.com/quote/^VIX) historical data to replicate the results of the article.
 
-The performance of our implementation is similar to the performance reported in the original article. These are the detailed reports:
+The performance of our implementation is similar to the performance reported in the original article. The detailed reports are below.
 
 - Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
 - Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
@@ -42,7 +42,7 @@ Transaction costs are simulated by the broker implementation in the Lean backtes
 
 ## Results
 
-The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. Below are the results for each simulation.
+The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. The results for each simulation are below.
 
 ### Portfolio A
 - Assets: SPY, GHAAX, VWESX, VUSTX
