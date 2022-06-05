@@ -30,19 +30,34 @@ The results reported in the article cannot be replicated in an actual portfolio,
 
 A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX)
 
-B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [VIXY](https://finance.yahoo.com/quote/VIXY)
+B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/VWESX), [DFIHX](https://finance.yahoo.com/quote/DFIHX)
 
-C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
+C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [VIXY](https://finance.yahoo.com/quote/VIXY)
+
+D) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
 
 Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article), and no volatility control has been applied.
 
 ## Results
 
-The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. Here are the detailed results for each simulation:
+The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. Below are the results for each simulation.
 
-A)
-B)
-C)
+### A
+- Assets: SPY, GHAAX, VWESX, VUSTX
+- Rebalancing: daily
+- Training: every 2 years
+- Target volatility: no
+- Performance
+    - Sharpe ratio: 0.69
+    - CAGR: 10.08 %
+    - Max drawdown: -33.75 %
+- [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_vustx_vwesx.html)
+
+### B
+
+### C
+
+### D
 
 ## Source code (Python)
 
