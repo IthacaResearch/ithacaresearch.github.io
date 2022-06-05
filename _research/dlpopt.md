@@ -126,15 +126,16 @@ class DeepLearningPortfolioOptimizationModel:
         return
 
 
-    def get_weights(self, data):
+    def get_weights(self, data, force_train=False):
         """ Return the optimal portfolio weights on the basis of the historical data available """
 
         # Clear model at every call
-        if self.retrain_every_months < 0:
+        if self.retrain_every_months < 0 or force_train:
             self.model = None
         # Clear model after a given number of iterations
-        if self.counter % self.retrain_every_months == 0:
-            self.model = None
+        # if self.counter % self.retrain_every_months == 0 and not force_train:
+        #     self.model = None
+
         self.counter += 1
 
         def custom_loss_wrapper(dfs):
@@ -240,7 +241,6 @@ class PredictionResults():
         self.weights = prediction[0]
         self.callbacks = callbacks
         return
-
 ```
 
 Backtest code:
@@ -262,10 +262,13 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
         self.SetStartDate(2012, 1, 1)
         self.SetCash(1e6)
 
+        # tickers = ['VTI', 'DBC', 'AGG', 'VXX'] # original universe
+        # tickers = ['SPY', 'GHAAX', 'VWESX', 'VUSTX'] # universe A
+        # tickers = ['SPY', 'GHAAX', 'AGG', 'DFIHX'] # universe B
+        tickers = ['SPY', 'GHAAX', 'AGG', 'SH'] # universe C
+        
+        # tickers = ['SPY', 'GHAAX', 'VBMFX', 'VXX']
         # tickers = ['VTI', 'DBC', 'VGK', 'VPL', 'EEM', 'GLD', 'TLT', 'IEF', 'QQQ', 'VNQ', 'VB', 'TIP', 'LQD']
-        # tickers = ['SPY', 'GHAAX', 'VWESX', 'VUSTX']
-        # tickers = ['VTI', 'DBC', 'AGG', 'VXX']
-        tickers = ['SPY', 'GHAAX', 'VBMFX', 'VXX']
 
         for t in tickers:
             self.AddEquity(t, Resolution.Daily)
@@ -275,6 +278,7 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
 
         self.target_annualized_volatility = -1
         self.train_period = 5 * 252
+        self.max_delta_rebalance = 0.02
         self.data = deque(maxlen = self.train_period*10)
         self.model = DeepLearningPortfolioOptimizationModel(target_annualized_volatility = -1.,
                                                             test_len = 50,
@@ -284,36 +288,71 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
                                                             run_eagerly = True,
                                                             save_prediction_history = False)
 
-        self.Train(self.DateRules.MonthStart(tickers[0]), self.TimeRules.BeforeMarketClose(tickers[0]), self.Rebalance)
+        self.Train(self.DateRules.MonthStart(tickers[0]), self.TimeRules.BeforeMarketClose(tickers[0]), self.Retrain)
+
+        self.Schedule.On(self.DateRules.EveryDay(tickers[0]),
+                         self.TimeRules.AfterMarketOpen(tickers[0]),  # self.algorithm.TimeRules.AfterMarketOpen(self.benchmark, 60)
+                         self.Rebalance)
+
         self.SetWarmup(self.train_period)
 
         self.SetBrokerageModel(BrokerageName.InteractiveBrokersBrokerage, AccountType.Margin)
 
         self.last_weights = None
         self.previous_day = -1
+        self.number_of_months_elapsed = 0
         return
 
 
-    def Rebalance(self):
-
-        # Not enough data yet
-        if len(self.data) < self.train_period:
-            self.Debug(f'{self.Time} - data not ready')
-            return
+    def ExtractClose(self):
 
         # Convert the list of Slices into a single dataframe
         try:
             data = self.PandasConverter.GetDataFrame(list(self.data)).iloc[::-1]
         except Exception as ex:
             self.Error(f'{self.Time} - could not convert dataframe: {ex}')
-            return
+            return None
 
         # Extract the close prices
         data = data['close'].unstack(level = 0).dropna()
+        return data
+
+
+    def Retrain(self):
+        
+        # Not enough data yet
+        if len(self.data) < self.train_period:
+            self.Debug(f'{self.Time} - data not ready')
+            return
+
+        data = self.ExtractClose()
+        if data is None:
+            return
+
+        # Train the model and get the optimal weights
+        if self.number_of_months_elapsed % self.model.retrain_every_months == 0:
+            self.model.get_weights(data, force_train=True)
+
+        self.number_of_months_elapsed += 1
+
+        return
+
+
+    def Rebalance(self):
+
+        # Model not ready
+        if self.model.model is None:
+            return
+
+        # Extract the close prices
+        data = self.ExtractClose()
+        if data is None:
+            return
+
         tickers = [s.split(' ')[0] for s in data.columns]
 
         # Get the optimal weights
-        prediction_results = self.model.get_weights(data)
+        prediction_results = self.model.get_weights(data, force_train=False)
         weights = prediction_results.weights
 
         # Check if weights are valid
@@ -326,26 +365,30 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
         
         # Volatility targeting
         if self.target_annualized_volatility > 0:
-            vol = np.minimum(1, self.target_annualized_volatility/data.pct_change().dropna().ewm(com=0.5).std()[-1:] * np.sqrt(252) * 100)
+            vol = np.minimum(1, self.target_annualized_volatility/(data.pct_change().dropna().ewm(com=0.5).std()[-1:] * np.sqrt(252) * 100))
             weights = (weights * vol).values[0]
-
-        self.Log(f'{self.Time} - Portfolio weights: {weights}')
 
         # Order target portfolio weights in ascending order to be sure that sell orders are sent before buy orders
         delta_weights = []
-        if self.last_weights is not None and len(self.last_weights) == len(weights):
-            delta_weights = [w - l for l, w in zip(self.last_weights, weights)]
+        current_weights = currentWeights(self)
+        if current_weights is not None and len(current_weights) == len(weights):
+            delta_weights = [w - current_weights[tickers[i]] for i,w in enumerate(weights)]
             ticker_weight = sorted(zip(tickers, weights, delta_weights), key = lambda x: x[2], reverse = False)
         else:
             ticker_weight = sorted(zip(tickers, weights, weights), key = lambda x: x[1], reverse = False)
 
         # Send orders
         # if not delta_weights or (delta_weights and any([abs(d)>2.5/100. for d in delta_weights])):
-        for t, w, dw in ticker_weight:
-            if dw > 0:
-                self.SetHoldings(t, w * 0.99)
-            else:
-                self.SetHoldings(t, w)
+        if (not delta_weights or
+            all([w == 0 for w in weights]) or
+            (len(delta_weights) != 0 and any([(abs(d) > self.max_delta_rebalance) for d in delta_weights])) or
+            not self.Portfolio.Invested):
+            self.Log(f'{self.Time} - Portfolio weights: {weights}')
+            for t, w, dw in ticker_weight:
+                if dw > 0:
+                    self.SetHoldings(t, w * 0.99)
+                else:
+                    self.SetHoldings(t, w)
 
         self.last_weights = weights
 
@@ -357,6 +400,16 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
             self.data.appendleft(data)
         self.previous_day = self.Time.day
         return
+
+
+def currentWeights(algorithm):
+    current_weights = {s.Symbol:0 for s in algorithm.Securities.Values}
+    totPortfolioValue = algorithm.Portfolio.TotalPortfolioValue
+    for symbol in current_weights.keys():
+        curr_quantity = algorithm.Portfolio[symbol].Quantity
+        price = algorithm.Securities[symbol].Price
+        current_weights[symbol] = curr_quantity * price / totPortfolioValue
+    return {s.Value:w for s,w in current_weights.items()}
 ```
 
 Lean engine dependencies:
