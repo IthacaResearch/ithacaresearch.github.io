@@ -1,23 +1,27 @@
 ---
 title: "An implementation of 'Deep Learning for Portfolio Optimization' by Zhang, Z. , Zohren, S. , Roberts, S."
-excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer: no."
+excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer is: no."
 ---
 
-Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer: no.
+_Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer is: no._
 
 The article proposes an interesting approach to building a diversified portfolio using highly liquid Exchange Traded Funds (ETFs): a deep learning model is trained and used to obtain the portfolio weights which optimize the portfolio Sharpe ratio.
 
-The results look promising, and the possibility to have the model spitting out the optimal weights directly is definitely enticing. The major issue we have found with the article is the following:
+The results shown in the article are promising, and the possibility to have the model spitting out the optimal weights directly is definitely enticing. The major issue we have found with the article is the following:
 
 > We use four market indices: US total stock index (VTI), US aggregate bond index (AGG), US commodity index (DBC) and Volatility Index (VIX).
 
-The VIX is not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there is no financial instrument that replicates the performance of the VIX. We could surely use VIX futures, VIX future options, or ETPs based on VIX futures, but none of these track the VIX. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
+The [VIX](https://www.cboe.com/tradable_products/vix/faqs/) is an index, not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there are no financial instruments that replicate the performance of the VIX. We could surely use VIX futures, VIX future options, or ETPs based on VIX futures, but none of these track the VIX well. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
 
-Link to the original article: [Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+Although the results reported in the article cannot be replicated in an actual portfolio, we have tried using the same methodology, this time applying it to investable assets only. Specifically, we have simulated the performance of a portfolio composed by SPY, GHAAX, VWESX, VUSTX. Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article).
 
-Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
+## Resources
 
-Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
+- Link to the original article: [Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+- Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
+- Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
+
+## Soure code (Python)
 
 Model implementation:
 
@@ -218,7 +222,7 @@ class DeepLearningPortfolioOptimizationAlgo(QCAlgorithm):
         self.model = DeepLearningPortfolioOptimizationModel(target_annualized_volatility = -1.,
                                                             test_len = 50,
                                                             retrain_every_months = 24,
-                                                            n_epochs = 10,
+                                                            n_epochs = 100,
                                                             batch_size = 64,
                                                             run_eagerly = True,
                                                             save_prediction_history = False)
