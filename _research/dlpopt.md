@@ -63,7 +63,7 @@ This portfolio uses SH as a proxy for VIX. We could have used VXX, or VIXY inste
 
 ## Results
 
-The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. The outperformance reported in the original article seems to be deriving from using VIX as an investable asset, which is unfortunately not possible. The results for each simulation are below.
+The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. The outperformance reported in the original article seems to be deriving from the usage of VIX as an investable asset. The results for each simulation are below.
 
 ### Portfolio A
 - Sharpe ratio: 0.69
