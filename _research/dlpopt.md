@@ -1,25 +1,46 @@
 ---
 title: "An implementation of 'Deep Learning for Portfolio Optimization' by Zhang, Z. , Zohren, S. , Roberts, S."
-excerpt: "Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer is: no."
+excerpt: "Can a diversified portfolio built using a deep learning model trained on price data beat the risk adjusted returns of the market? The short answer is: no."
 ---
 
-_Can a diversified portfolio built using a deep learning model beat the risk adjusted returns of the market? The short answer is: no._
+_Can a diversified portfolio built using a deep learning model trained on price data beat the risk adjusted returns of the market? The short answer is: no._
 
-The article proposes an interesting approach to building a diversified portfolio using highly liquid Exchange Traded Funds (ETFs): a deep learning model is trained and used to obtain the portfolio weights which optimize the portfolio Sharpe ratio.
+## Introduction
 
-The results shown in the article are promising, and the possibility to have the model spitting out the optimal weights directly is definitely enticing. The major issue we have found with the article is the following:
+The article "[Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)" proposes an interesting approach to building a diversified portfolio using highly liquid Exchange Traded Funds (ETFs): a deep learning model is trained and used to obtain the portfolio weights which optimize the portfolio Sharpe ratio.
+
+The results shown in the article are promising, and the possibility to have the model directly spitting out the optimal weights is enticing. The major issue we have found with the article is the following:
 
 > We use four market indices: US total stock index (VTI), US aggregate bond index (AGG), US commodity index (DBC) and Volatility Index (VIX).
 
 The [VIX](https://www.cboe.com/tradable_products/vix/faqs/) is an index, not an investable asset, and therefore the results included in the article could never be achieved by an actual portfolio as there are no financial instruments that replicate the performance of the VIX. We could surely use VIX futures, VIX future options, or ETPs based on VIX futures, but none of these track the VIX well. Why is this the case? Read [this](https://sixfigureinvesting.com/2010/01/how-to-go-long-on-the-vix-index-2/) and [this](https://sixfigureinvesting.com/2013/08/trading-the-vix-index/).
 
-Although the results reported in the article cannot be replicated in an actual portfolio, we have tried using the same methodology, this time applying it to investable assets only. Specifically, we have simulated the performance of a portfolio composed by [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX). Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article).
+## Replicating the results
 
-## Resources
+Although the performance of the strategy reported in the article cannot be actually replicated, we have benchmarked our implementation by using market data very similar to the one used by the authors. The source code shows [VXX](https://finance.yahoo.com/quote/VXX) (which is a listed instrument) as the instrument tracking the VIX, but its market data has been replaced with the [VIX](https://finance.yahoo.com/quote/^VIX) historical data to replicate the results of the article.
 
-- Link to the original article: [Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)
+The performance of our implementation is similar to the performance reported in the original article. These are the detailed reports:
+
 - Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
 - Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
+
+## Alternative strategies
+
+The results reported in the article cannot be replicated in an actual portfolio, but since the methodology seems promising we have tried applying it to investable assets only. Specifically, we have run different simulation using the following sets of assets:
+
+A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX).<br>
+B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [VIXY](https://finance.yahoo.com/quote/VIXY)
+C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
+
+Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article), and no volatility control has been applied.
+
+## Results
+
+The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. Here are the detailed results for each simulation:
+
+A)
+B)
+C)
 
 ## Source code (Python)
 
