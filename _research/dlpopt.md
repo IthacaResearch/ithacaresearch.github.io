@@ -46,8 +46,9 @@ The simulated performance of the methodology proposed in the original article is
 
 ### Portfolio A
 - Assets: SPY, GHAAX, VWESX, VUSTX
-- Rebalancing: daily
-- Training: every 2 years
+- Model training: every 2 years
+- Rebalancing frequency: daily
+- Minimum weight change for rebalancing: 0
 - Target volatility: no
 - Performance
     - Sharpe ratio: 0.69
