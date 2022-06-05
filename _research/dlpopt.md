@@ -28,8 +28,10 @@ The performance of our implementation is similar to the performance reported in 
 
 The results reported in the article cannot be replicated in an actual portfolio, but since the methodology seems promising we have tried applying it to investable assets only. Specifically, we have run different simulation using the following sets of assets:
 
-A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX).<br>
+A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX)
+
 B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [VIXY](https://finance.yahoo.com/quote/VIXY)
+
 C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
 
 Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article), and no volatility control has been applied.
