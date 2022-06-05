@@ -32,9 +32,7 @@ A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com
 
 B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/VWESX), [DFIHX](https://finance.yahoo.com/quote/DFIHX)
 
-C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [VIXY](https://finance.yahoo.com/quote/VIXY)
-
-D) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
+C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
 
 Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on.<br>
 Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article).<br>
@@ -70,7 +68,6 @@ The simulated performance of the methodology proposed in the original article is
 
 ### Portfolio C
 
-### Portfolio D
 
 ## Source code (Python)
 
