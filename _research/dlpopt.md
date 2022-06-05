@@ -67,7 +67,16 @@ The simulated performance of the methodology proposed in the original article is
 - [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_agg_dfihx.html)
 
 ### Portfolio C
-
+- Assets: SPY, GHAAX, AGG, SH
+- Model training: every 2 years
+- Rebalancing frequency: daily
+- Minimum weight change for rebalancing: 2 %
+- Target volatility: no
+- Performance
+    - Sharpe ratio: 0.5
+    - CAGR: 5.22 %
+    - Max drawdown: -28 %
+- [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_agg_dfihx.html)
 
 ## Source code (Python)
 
