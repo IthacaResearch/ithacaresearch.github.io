@@ -9,7 +9,7 @@ _Can a diversified portfolio built using a deep learning model trained on price 
 
 The article "[Deep Learning for Portfolio Optimization](https://arxiv.org/pdf/2005.13665.pdf)" proposes an interesting approach to building a diversified portfolio using highly liquid Exchange Traded Funds (ETFs): a deep learning model is trained and used to obtain the portfolio weights which optimize the portfolio Sharpe ratio.
 
-The results shown in the article are promising, and the possibility to have the model directly spitting out the optimal weights is enticing. The major issue we have found with the article is the following:
+The results shown in the article are promising, and the possibility to have the model directly spitting out the optimal weights is enticing. There is major issue we have found with the securities used in the article:
 
 > We use four market indices: US total stock index (VTI), US aggregate bond index (AGG), US commodity index (DBC) and Volatility Index (VIX).
 
@@ -26,61 +26,66 @@ The performance of our implementation is similar to the performance reported in 
 
 ## Alternative strategies
 
-The results reported in the article cannot be replicated in an actual portfolio, but since the methodology seems promising we have tried applying it to investable assets only. Specifically, we have run different simulation using the following sets of assets:
-
-A) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX)
-
-B) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/VWESX), [DFIHX](https://finance.yahoo.com/quote/DFIHX)
-
-C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
-
-Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on.<br>
+The results reported in the article cannot be replicated in an actual portfolio, but since the methodology seems promising we have tried applying it to investable assets only.
+We have used mutual funds as they allow us to run longer simulations: some of them have been trading since the eighties, and market data therefore starts earlier on.<br>
 Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article).<br>
 Transaction costs are simulated by the broker implementation in the Lean backtesting engine.
 
-## Results
-
-The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. The results for each simulation are below.
+The sets of assets we have considered are below.
 
 ### Portfolio A
-- Assets: SPY, GHAAX, VWESX, VUSTX
+
+- Assets: [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [VWESX](https://finance.yahoo.com/quote/VWESX), [VUSTX](https://finance.yahoo.com/quote/VUSTX)
 - Model training: every 2 years
 - Rebalancing frequency: daily
 - Minimum weight change for rebalancing: 0
 - Target volatility: no
-- Performance
-    - Sharpe ratio: 0.69
-    - CAGR: 10.08 %
-    - Max drawdown: -33.75 %
+
+This is a simple but diversified portfolio of stocks, bonds, and commodities. The performance of these (or similar) funds can reasonably be assumed to .
+
+### Portfolio B
+- Assets: [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/VWESX), [DFIHX](https://finance.yahoo.com/quote/DFIHX)
+- Model training: every 2 years
+- Rebalancing frequency: daily
+- Minimum weight change for rebalancing: 2 %
+- Target volatility: no
+
+This portfolio is similar to the previous, but includes an ultra short term bonds fund to simulate an allocation to cash.
+
+### Portfolio C
+- Assets: [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
+- Model training: every 2 years
+- Rebalancing frequency: daily
+- Minimum weight change for rebalancing: 2 %
+- Target volatility: no
+
+This portfolio uses SH as a proxy for VIX. We could have used VXX, or VIXY instead, but the length of the historical market data is not sufficient to train the model properly.
+
+## Results
+
+The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. The outperformance reported in the original article seems to be deriving from using VIX as an investable asset, which is unfortunately not possible. The results for each simulation are below.
+
+### Portfolio A
+- Sharpe ratio: 0.69
+- CAGR: 10.08 %
+- Max drawdown: -33.75 %
 - [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_vustx_vwesx.html)
 
 ### Portfolio B
-- Assets: SPY, GHAAX, AGG, DFIHX
-- Model training: every 2 years
-- Rebalancing frequency: daily
-- Minimum weight change for rebalancing: 2 %
-- Target volatility: no
-- Performance
-    - Sharpe ratio: 0.6
-    - CAGR: 5.97 %
-    - Max drawdown: -28.92 %
+- Sharpe ratio: 0.6
+- CAGR: 5.97 %
+- Max drawdown: -28.92 %
 - [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_agg_dfihx.html)
 
 ### Portfolio C
-- Assets: SPY, GHAAX, AGG, SH
-- Model training: every 2 years
-- Rebalancing frequency: daily
-- Minimum weight change for rebalancing: 2 %
-- Target volatility: no
-- Performance
-    - Sharpe ratio: 0.5
-    - CAGR: 5.22 %
-    - Max drawdown: -28 %
+- Sharpe ratio: 0.5
+- CAGR: 5.22 %
+- Max drawdown: -28 %
 - [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_agg_dfihx.html)
 
 ## Source code (Python)
 
-Model implementation:
+### Model implementation
 
 ```python
 import gc
@@ -243,7 +248,7 @@ class PredictionResults():
         return
 ```
 
-Backtest code:
+### Backtest code
 
 ```python
 from QClibs import *
@@ -412,7 +417,7 @@ def currentWeights(algorithm):
     return {s.Value:w for s,w in current_weights.items()}
 ```
 
-Lean engine dependencies:
+### Lean engine dependencies
 
 ```python
 from QuantConnect import *
