@@ -21,7 +21,7 @@ Although the results reported in the article cannot be replicated in an actual p
 - Backtest results (no target volatility): [No target volatility](/notebooks/dlpopt_no_target_vol.html)
 - Backtest results (annualized target volatility = 10%): [Target volatility 10%](/notebooks/dlpopt_target_vol_10.html)
 
-## Soure code (Python)
+## Source code (Python)
 
 Model implementation:
 
