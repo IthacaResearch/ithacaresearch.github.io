@@ -36,13 +36,15 @@ C) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com
 
 D) [SPY](https://finance.yahoo.com/quote/SPY), [GHAAX](https://finance.yahoo.com/quote/GHAAX), [AGG](https://finance.yahoo.com/quote/AGG), [SH](https://finance.yahoo.com/quote/SH)
 
-Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on. Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article), and no volatility control has been applied.
+Using mutual funds allows us to run a longer simulation as some of them have been trading since the eighties, and market data therefore starts earlier on.<br>
+Trading is simulated at the close (this causes a positive skew in the simulated performance, but the effect can be neglected for the sake of comparison with the strategy reported in the original article).<br>
+Transaction costs are simulated by the broker implementation in the Lean backtesting engine.
 
 ## Results
 
 The simulated performance of the methodology proposed in the original article is unfortunately poor when using investable assets. Below are the results for each simulation.
 
-### A
+### Portfolio A
 - Assets: SPY, GHAAX, VWESX, VUSTX
 - Rebalancing: daily
 - Training: every 2 years
@@ -53,11 +55,11 @@ The simulated performance of the methodology proposed in the original article is
     - Max drawdown: -33.75 %
 - [Detailed tearsheet](/notebooks/dlpopt_daily_spy_ghaax_vustx_vwesx.html)
 
-### B
+### Portfolio B
 
-### C
+### Portfolio C
 
-### D
+### Portfolio D
 
 ## Source code (Python)
 
