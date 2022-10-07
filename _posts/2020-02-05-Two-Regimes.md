@@ -17,11 +17,11 @@ The main risk of this strategy is the allocation percentage: when the confidence
 #### Strategy details
 * Asset classes: equities, government bonds
 * Number of assets: 3
-* Backtest period: Jan 1998 - Sep 2021
+* Backtest period: Jan 1998 - Oct 2022
 * Rebalancing frequency: variable, average: 5.4/year
-* CAGR: 17.46%
-* Sharpe: 1.34
-* Max Drawdown: 13.53%
+* CAGR: 16.95%
+* Sharpe: 1.33
+* Max Drawdown: 13.42%
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Two Regimes](/tearsheets/TwoRegimes.html)
 

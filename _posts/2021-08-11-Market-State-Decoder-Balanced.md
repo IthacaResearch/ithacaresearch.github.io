@@ -18,7 +18,7 @@ There are three versions of this strategy. The one described on this page is nam
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
 * Number of assets: 10
-* Backtest period: Jan 1998 - Jan 2022
+* Backtest period: Jan 1998 - Oct 2022
 * Rebalancing frequency: variable, average 4/year
 * CAGR: 10.55 %
 * Max Drawdown: 19.2 %

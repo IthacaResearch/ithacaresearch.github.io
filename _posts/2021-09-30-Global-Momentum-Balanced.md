@@ -12,7 +12,7 @@ The main source of underperformance for this strategy is the same as for the "Ag
 #### Strategy details
 * Asset classes: equities, REITs, corporate bonds, government bonds
 * Number of assets: 25
-* Backtest period: Jan 1998 - Jan 2022
+* Backtest period: Jan 1998 - Oct 2022
 * Rebalancing frequency: monthly
 * CAGR: 13.69 %
 * Max Drawdown: -19.76 %
