@@ -22,9 +22,9 @@ There are three versions of this strategy; the one described on this page is nam
 * Number of assets: 10
 * Backtest period: Jan 1998 - Nov 2021
 * Rebalancing frequency: monthly
-* CAGR: 11.0 %
-* Max Drawdown: 11.72 %
-* Sharpe ratio: 1.08
+* CAGR: 10.0 %
+* Max Drawdown: 16.18 %
+* Sharpe ratio: 0.98
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Market State Decoder Defensive Capped](/tearsheets/MarketStateDecoderDefensiveCapped.html)
 
