@@ -1,6 +1,7 @@
 ---
 title: Target Volatility 2x
 permalink: /strategies/target-volatility-2x
+published: false
 excerpt_separator:  <!--more-->
 ---
 

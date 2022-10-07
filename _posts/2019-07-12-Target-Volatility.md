@@ -14,7 +14,7 @@ The main advantage of this strategy is low risk: although it sacrifices some ret
 #### Strategy details
 * Asset classes: equities, government bonds
 * Number of assets: 3
-* Backtest period: Jan 2003 - Jan 2022
+* Backtest period: Jan 2003 - Oct 2022
 * Rebalancing frequency: variable, average 9.5/year
 * CAGR: 5.26 %
 * Maximum drawdown: 11.71 %
