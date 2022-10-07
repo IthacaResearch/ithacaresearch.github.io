@@ -12,11 +12,11 @@ The strategy performance is robust in the last 20+ years. Its volatility and dra
 #### Strategy details
 * Asset classes: equities, REITs, bonds, commodities
 * Number of assets: 13
-* Backtest period: Jan 1998 - Feb 2022
+* Backtest period: Jan 1998 - Oct 2022
 * Rebalancing frequency: monthly
-* CAGR: 14.61 %
-* Max Drawdown: -18.56 %
-* Sharpe ratio: 1.01
+* CAGR: 13.86 %
+* Max Drawdown: -25.91 %
+* Sharpe ratio: 0.95
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Economic Cycle Speculator](/tearsheets/EconomicCycleSpeculator.html)
 
