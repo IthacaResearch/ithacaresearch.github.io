@@ -14,9 +14,9 @@ The main source of underperformance for this strategy is the same as for the "Ag
 * Number of assets: 25
 * Backtest period: Jan 1998 - Jan 2022
 * Rebalancing frequency: monthly
-* CAGR: 13.93 %
-* Max Drawdown: -18.48 %
-* Sharpe ratio: 1.16
+* CAGR: 13.69 %
+* Max Drawdown: -19.76 %
+* Sharpe ratio: 1.15
 * Maximum leverage: 1 (long only)
 * Detailed tearsheet: [Global Momentum Balanced](/tearsheets/GlobalMomentumBalanced.html)
 
