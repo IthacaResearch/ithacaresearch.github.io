@@ -9,8 +9,6 @@ excerpt_separator:  <!--more-->
 
 The rationale of this strategy is rather simple: allocate most of the capital to safe assets (like cash or bonds) when times get rough, otherwise allocate more to risk assets (in this case stocks).
 
-The main advantage of this strategy is low risk: although it sacrifices some returns, the maximum drawdown since 2003 is 4%.
-
 #### Strategy details
 * Asset classes: equities, government bonds
 * Number of assets: 3
